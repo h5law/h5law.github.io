@@ -1,4 +1,4 @@
-baseURL: "https://h5law.com"
+baseURL: "https://h5law.com/"
 title: h5law
 paginate: 5
 theme: "PaperMod"
