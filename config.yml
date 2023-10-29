@@ -2,6 +2,7 @@ baseURL: "https://h5law.com/"
 title: h5law
 paginate: 5
 theme: "PaperMod"
+languageCode: "en-gb"
 
 enableRobotsTXT: true
 buildDrafts: false
