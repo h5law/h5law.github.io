@@ -69,9 +69,7 @@ params:
     Title: "Hey \U0001F44B"
     Subtitle: "Welcome to my blog!"
     Content: >
-      - This is intended to be a collection of articles, write ups on projects and quick thoughts.
-
-      - TL;DR on me:
+      - This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
     Tldr: >
 
       -- Protocol Developer 👨🏼‍💻
@@ -80,7 +78,7 @@ params:
       -- Notorious Industry Plant 🪴
 
 
-      -- Web3️⃣, Networks 🛜, Cryptography 🔐, Trees 🌴 and General Tech Enthusiast
+      -- Web3️⃣, Networks 🛜, Cryptography 🔐, Trees 🌴 and General Tech 💻 Enthusiast
 
 
       -- International Man of Mystery 🕵🏼‍♂️
