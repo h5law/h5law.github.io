@@ -4,16 +4,23 @@ paginate: 5
 theme: "PaperMod"
 languageCode: "en-gb"
 
+enablenableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
+enableEmoji: true
 googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
   minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -33,6 +40,7 @@ params:
   ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -43,7 +51,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/img/favicon.ico"
     favicon16x16: "/img/favicon-16x16.png"
@@ -58,14 +66,33 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hey \U0001F44B"
+    Content: >
+      Welcome to my blog!
+
+      - This is intended to be a collection of articles, write ups on projects and quick thoughts.
+
+      - TL;DR on me:
+
+
+      --   Protocol Developer 👨🏼‍💻
+
+
+      --   Notorious Industry Plant 🪴
+
+
+      --   Web3, Decentralisation, Crypto, Tree 🌴 and General Tech Enthusiast
+
+
+      --  Enjoyer of Other Things Too
 
   socialIcons:
     - name: twitter
       url: "https://x.com/h5law"
     - name: github
       url: "https://github.com/h5law"
+    - name: rss
+      url: "https://h5law.com/index.xml"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -84,16 +111,48 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+taxonomies:
+  categories: categories
+  tag: tags
+
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 20
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
@@ -101,7 +160,7 @@ markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: dracula
