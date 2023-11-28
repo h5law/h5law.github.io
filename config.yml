@@ -65,23 +65,31 @@ params:
     iconHeight: 35
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hey \U0001F44B"
-    Subtitle: "Welcome to my blog!"
-    Content: >
-      - This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
-    Tldr: >
+  # homeInfoParams:
+  #   enabled: false
+  #   Title: "Hey \U0001F44B"
+  #   Subtitle: "Welcome to my blog!"
 
-      Protocol Developer 👨🏼‍💻
+  profileMode:
+    enabled: true
+    title: "h5law"
+    subtitle: "Welcome To My Site 👋"
+    content: >
+       This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
+    tldr: >
+       Protocol Developer 👨🏼‍💻
 
-
-      Notorious Industry Plant 🪴
-
-
-      Web3️⃣, Networks 🛜, Cryptography 🔐, Trees 🌴
-
-
-      International Man of Mystery 🕵🏼‍♂️
+  
+       Notorious Industry Plant 🪴
+    imageUrl: "/img/logo.png"
+    imageTitle: "h5law - Protocol Developer" # optional
+    imageWidth: 128
+    imageHeight: 128
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Archives
+        url: "/archives"
 
   socialIcons:
     - name: twitter
@@ -118,14 +126,18 @@ menu:
       name: Search
       url: /search/
       weight: 10
+    - identifier: archives 
+      name: Archives 
+      url: /archives/
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 20
+      weight: 30
     - identifier: Tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 40
 
 privacy:
   vimeo:
