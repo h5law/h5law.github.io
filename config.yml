@@ -75,16 +75,16 @@ params:
     title: "h5law"
     subtitle: "Welcome To My Site 👋"
     content: >
-       This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
+      This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
     tldr: >
-       Protocol Developer 👨🏼‍💻
+      Protocol Developer 👨🏼‍💻
 
-  
-       Notorious Industry Plant 🪴
+
+      Notorious Industry Plant 🪴
     imageUrl: "/img/logo.png"
     imageTitle: "h5law - Protocol Developer" # optional
-    imageWidth: 128
-    imageHeight: 128
+    imageWidth: 256
+    imageHeight: 256
     buttons:
       - name: Posts
         url: "/posts"
@@ -126,8 +126,8 @@ menu:
       name: Search
       url: /search/
       weight: 10
-    - identifier: archives 
-      name: Archives 
+    - identifier: archives
+      name: Archives
       url: /archives/
       weight: 20
     - identifier: categories
