@@ -87,9 +87,9 @@ params:
     imageHeight: 192
     buttons:
       - name: Posts
-        url: "/posts"
+        url: "/posts/"
       - name: Archives
-        url: "/archives"
+        url: "/archives/"
 
   socialIcons:
     - name: twitter
