@@ -1,6 +1,6 @@
-<div class="profile">
+<div class="profile", style="width: 100%">
     {{- with site.Params.profileMode }}
-    <div class="profile_inner", style="width: 100%">
+    <div class="profile_inner">
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
@@ -34,7 +34,7 @@
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" site.Params.socialIcons -}}
 
-        <div style="width: 50%; margin: 0 auto">
+        <div style="width: 65%; margin: 0 auto">
           <div class="entry-content">{{ .content | markdownify }}</div>
           <div style="width: 100%; margin: 0 auto; text-align: center">
             <div class="entry-content">
