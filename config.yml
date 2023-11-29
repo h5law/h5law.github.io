@@ -62,7 +62,7 @@ params:
   label:
     text: "h5law"
     icon: "/img/logo.png"
-    iconHeight: 27
+    iconHeight: 30
 
   # home-info mode
   # homeInfoParams:
@@ -81,7 +81,7 @@ params:
 
 
       Notorious Industry Plant 🪴
-    imageUrl: "/img/logo.png"
+    imageUrl: "/img/icon.png"
     imageTitle: "h5law - Protocol Developer" # optional
     imageWidth: 192
     imageHeight: 192
