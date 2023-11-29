@@ -62,7 +62,7 @@ params:
   label:
     text: "h5law"
     icon: "/img/logo.png"
-    iconHeight: 35
+    iconHeight: 50
 
   # home-info mode
   # homeInfoParams:
