@@ -40,8 +40,8 @@ hope to capture some of these in this article
 ## Context
 
 For those who don't know, in the past year Pocket has transitioned from
-building out its own L1 to a rollup utilising [Rollkit]
-and [Celestia] for our data-availability layer.
+building out its own L1 to a rollup utilising [Rollkit] and [Celestia] for our
+data-availability layer.
 
 When I started I was building lots of new things, below is a list of things that
 stood out as of the time of writing:
@@ -96,17 +96,17 @@ challenging aspect of development.
 As part of building out the [Shannon][poktroll] upgrade to the protocol, I am
 still involved heavily in the cryptographic side of things. Integrating ring
 signatures for our App to Gateway delegation process and request signing. I've
-been able to contribute back to the [library][ring-go] we use which I find
+been able to contribute back to the [library][ring-go] we use, which I find
 so cool.
 
 So lets break down some of the highlights of this year. Of course there will be
-lots of exciting things I am miss out, otherwise this blog would be incredibly
-long.
+lots of exciting things I am going to miss out, otherwise this blog would be
+incredibly long.
 
 ### SMT
 
 Over this past year I have learned a lot. I have become somewhat of a specialist
-in the field of trees/tries with the [SMT repo][smt] that I have taken over,
+in the field of trees/tries 🌴 with the [SMT repo][smt] that I have taken over,
 since [celestia] archived [their repo](https://github.com/celestiaorg/smt)
 which we were using previously.
 
@@ -131,7 +131,7 @@ another post but all I should say is:
 ### Compute Units
 
 If you are familiar with RPC providers in general you would know providers such
-as Lava, Ankr and Alchemy utilise `Compute Units` these allow for each RPC call
+as Lava, Ankr and Alchemy utilise `Compute Units` 💾 these allow for each RPC call
 to be paid for proportioal to the cost required to execute it. This is beneficial
 as it rewards suppliers for providing more demanding services and thus gives
 more access to those services.
@@ -178,15 +178,15 @@ related to a native go implementation of IBC (without the `cosmos-sdk`
 dependency) and other parts of the old repo I was invested in suddenly vanished.
 
 It's never nice to see the things you've worked on and eagerly waited for people
-to use, not see the light of day. But that's life and we move on. As the
+to use not see the light of day. But that's life and we move on. As the
 [section above](#the-good) details there is still so much good that this doesn't
 really matter. What we are doing now is the right thing and I stand behind that
 with my whole self.
 
 Personally, I find it hard to find any downsides to my work here at Pocket.
 Going from a community contributor to working full time on the protocol, I live
-and breath POKT. I love this project, I have ideas 💡 ranging from pre-testnet, to
-testnet and after mainnet. And I want to see all these implemented. It's been
+and breath POKT. I love this project, I have ideas 💡 ranging from pre-testnet,
+to testnet and after mainnet. And I want to see all these implemented. It's been
 great to have my say and shape the protocol - or at least influence its shape.
 
 That being said I find coming from a different background to the others on the
@@ -206,7 +206,7 @@ differently.
 
 This could be the single downside I have had working full time at Pocket. Going
 from a community contributor to a full time core protocol dev, it has become a
-job there are more rules. People to please, feelings to take into account, in
+job, there are more rules; people to please; feelings to take into account. In
 my world all that matters is:
 
 > Can you deliver?
@@ -215,10 +215,11 @@ my world all that matters is:
 
 Some of you may know that I am at university 🎓, studying computer science
 surprisingly. Doing both university full time, exams, coursework, lectures,
-practicals etc. On top of the full-time work I do at POKT has been a lot. It has
-definitely been ugly 😖. But I've achieved time management skills like no one
-would believe. I surprise myself sometimes how I manage it all. It's far from
-easy but its most definitely the ugliest part of the POKT+UNI combination.
+practicals etc. On top of the full-time work I do at POKT. It has been a lot,
+and it has definitely been ugly 😖. But I've achieved time management skills
+like no one would believe. I surprise myself sometimes with how I manage it all.
+It's far from easy but its most definitely the ugliest part of the POKT+UNI
+combination.
 
 ## Summary
 
