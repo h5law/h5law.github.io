@@ -40,8 +40,8 @@ hope to capture some of these in this article
 ## Context
 
 For those who don't know, in the past year Pocket has transitioned from
-building out its own L1 to a rollup utilising [Rollkit][rollkit]
-and [Celestia][celestia] for our data-availability layer.
+building out its own L1 to a rollup utilising [Rollkit]
+and [Celestia] for our data-availability layer.
 
 When I started I was building lots of new things, below is a list of things that
 stood out as of the time of writing:
@@ -51,25 +51,25 @@ stood out as of the time of writing:
 1. [Hierarchical Key Derivation Systems.][slip0010]
    - See: [SLIP-0010](https://github.com/satoshilabs/slips/blob/master/slip-0010.md)
      for more information on this specifically.
-1. The [CLI][cli] and [RPC][rpc] to interact with the L1 itself.
+1. The [CLI] and [RPC] to interact with the L1 itself.
 1. A non-cosmos dependent implementation of [ibc-go](https://github.com/cosmos/ibc-go)
    - This was very much still a WIP
 
-But it was when I began to work on the [SMT][smt] that I found a true passion of
+But it was when I began to work on the [SMT] that I found a true passion of
 mine. We will dive into this in a lot more detail later, but it was in the old
 [Morse (v1) repo][v1] this all began.
 
 After much deliberation, many late night calls, debates and most importantly
 **research**; we decided as a team to move away from building out our own L1 and
-focus on our core offerings. Decentralised RPC. [Olshansky][olshansky] wrote a
+focus on our core offerings. Decentralised RPC. [Olshansky] wrote a
 great [blog post](https://olshansky.substack.com/p/why-pocket-is-rolling-with-rollkit)
 detailing everything so I won't go into it all now. But as a result it meant
 starting over with: a new stack, a new codebase and unfortunately a lot of the
 work I had previously done was scrapped in favour of the multitude of things
 that come for free out of the box with using [`cosmos-sdk`][cosmos] (rollups
-using [rollkit][rollkit] on [celestia][celestia] can still use the sdk as if
+using [rollkit] on [celestia] can still use the sdk as if
 they were building a regular app-chain) and benefit from all the work done in the
-[cosmos][cosmos] ecosystem.
+[cosmos] ecosystem.
 
 So lets get into this last year: the [**good**](#the-good), the
 [**bad**](#the-bad) and the [**ugly**](#the-ugly).
@@ -85,7 +85,7 @@ place? We have had to make so many cool things that honestly make me so proud to
 work with such a great team and build such an **amazing** and **inovative**
 protocol.
 
-From the guidance of [Olshansky][olshansky] and the other amazing members of the
+From the guidance of [Olshansky] and the other amazing members of the
 protocol team Bryan, Redouane, Dima - all who have a lot more industry
 experience than I do; I have managed to build my intuition on problem solving
 which is the hardest thing, in my opinion, when it comes to programming. Writing
@@ -156,7 +156,7 @@ Gateways and applications to interact with the chain. All of this is under
 active development but seeing some of the issues with Morse (v1) being
 eliminated is actually amazing and I am so proud to be a part of it.
 
-My main contribution to the Application<->Gateway interaction was (un)delegation.
+My main contribution to the Application\<->Gateway interaction was (un)delegation.
 This allows for an application to delegate trust to a gateway such that the
 gateway can sign incoming requests from the application on its behalf. All of
 this works through the usage of [ring signatures][ring-go] ✍🏻 and the
@@ -168,6 +168,8 @@ Cryptography has definitely stood out to me as being another area of interest,
 and I hope that *soon*™️ , I will be on the same level of knowledge and
 intuition with cryptographic primitives as I am with trees. But there are lots
 of abstract algebra textbooks 📚 to read before I am fluent here.
+
+![Absorbing Books](/media/absorb-book.gif#center)
 
 ## The Bad
 
@@ -191,16 +193,16 @@ That being said I find coming from a different background to the others on the
 team to be a real challenge. I am young, have less "experience" (but this
 doesn't matter in Web3 - if you can deliver it doesn't matter who you are), and
 this shows. Often its an opportunity for me to learn, other times its an
-opportunity for me to teach them something. But sometimes, although rare, it
-leads to some issues. I work all the time, I engage with the community, there is
-no rest. Sometimes I feel the pace to be too slow on certain things. We are
-building out the protocol rapidly and everyone is committing their all. Working
-weekends, late nights etc. But occasionally there are miscommunications and
-this is expected working in a team. Maybe its because I haven't worked in the
-"traditional" corporate setting, but it seems my style of work doesn't fit well
-with others. I think the new generation know what it means to hussle, how to
-grind and get shit done. I **am not saying** the others on the team don't know
-how to do any of these things, all I am saying is they do it differently.
+opportunity for me to teach them something. We are building out the protocol
+rapidly and everyone is committing their all. Working weekends, late nights etc.
+But occasionally there are miscommunications and this is expected working in a
+team. Maybe its because I haven't worked in the "traditional" corporate setting,
+but it seems my style of work doesn't fit well with others. I think the new
+generation hussles, grinds and works differently from the generations that came
+before us. The rest of the team work hard; they grind; they hussle; just
+differently.
+
+![Hustling My Whole Life](/media/hustling-whole-life.gif#center)
 
 This could be the single downside I have had working full time at Pocket. Going
 from a community contributor to a full time core protocol dev, it has become a
@@ -234,21 +236,21 @@ believe that we will soon enter the `PoktVerse` 🪐 phase:
 - Our innovative technology is used across the entire industry
 - We moon? 🌝
 
-[rollkit]: https://rollkit.dev
 [celestia]: https://celestia.org
+[cli]: https://github.com/pokt-network/pocket/tree/main/app/client/cli
+[clpdocs]: https://github.com/pokt-network/smt/blob/main/docs/SMT.md#closest-proof
+[cosmos]: https://github.com/cosmos/cosmos-sdk
 [crypto]: https://github.com/pokt-network/pocket/tree/main/shared/crypto
 [keybase]: https://github.com/pokt-network/pocket/tree/main/app/client/keybase
-[slip0010]: https://github.com/pokt-network/pocket/tree/main/shared/crypto/slip
-[cli]: https://github.com/pokt-network/pocket/tree/main/app/client/cli
+[mstdocs]: https://github.com/pokt-network/smt/blob/main/docs/MerkleSumTrie.md
+[olshansky]: https://olshansky.info
+[plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
+[poktroll]: https://github.com/pokt-network/poktroll
+[ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
+[ring-go]: https://github.com/noot/ring-go
+[rmpaper]: https://arxiv.org/abs/2305.10672
+[rollkit]: https://rollkit.dev
 [rpc]: https://github.com/pokt-network/pocket/tree/main/rpc
+[slip0010]: https://github.com/pokt-network/pocket/tree/main/shared/crypto/slip
 [smt]: https://github.com/pokt-network/smt
 [v1]: https://github.com/pokt-network/pocket
-[olshansky]: https://olshansky.info
-[cosmos]: https://github.com/cosmos/cosmos-sdk
-[mstdocs]: https://github.com/pokt-network/smt/blob/main/docs/MerkleSumTrie.md
-[plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
-[clpdocs]: https://github.com/pokt-network/smt/blob/main/docs/SMT.md#closest-proof
-[rmpaper]: https://arxiv.org/abs/2305.10672
-[poktroll]: https://github.com/pokt-network/poktroll
-[ring-go]: https://github.com/noot/ring-go
-[ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
