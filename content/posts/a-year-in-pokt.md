@@ -11,9 +11,9 @@ draft = true
 - [Introduction](#introduction)
 - [Context](#context)
 - [The Good](#the-good)
-  * [SMT 🌴](#smt-%F0%9F%8C%B4)
-  * [Compute Units 💾](#compute-units-%F0%9F%92%BE)
-  * [Gateways And Rings 💍](#gateways-and-rings-%F0%9F%92%8D)
+  * [SMT](#smt)
+  * [Compute Units](#compute-units)
+  * [Gateways And Rings](#gateways-and-rings)
 - [The Bad](#the-bad)
 - [The Ugly](#the-ugly)
 - [Summary](#summary)
@@ -103,7 +103,7 @@ So lets break down some of the highlights of this year. Of course there will be
 lots of exciting things I am miss out, otherwise this blog would be incredibly
 long.
 
-### SMT 🌴
+### SMT
 
 Over this past year I have learned a lot. I have become somewhat of a specialist
 in the field of trees/tries with the [SMT repo][smt] that I have taken over,
@@ -128,7 +128,7 @@ another post but all I should say is:
 
 > Expect big things 😉
 
-### Compute Units 💾
+### Compute Units
 
 If you are familiar with RPC providers in general you would know providers such
 as Lava, Ankr and Alchemy utilise `Compute Units` these allow for each RPC call
@@ -147,7 +147,7 @@ immediately think of. Again big shout out to Olshansky and Ramiro from
 [PoktScan](https://poktscan.com) for helping me flesh out these ideas before we
 begin the implementation.
 
-### Gateways And Rings 💍
+### Gateways And Rings
 
 I implemented the on-chain gateway actor and in conjunction with Redouane built
 our MVP off-chain `appgateserver` (which is essentially a gateway like Portal
