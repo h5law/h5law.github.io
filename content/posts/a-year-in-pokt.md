@@ -86,7 +86,7 @@ work with such a great team and build such an **amazing** and **inovative**
 protocol.
 
 From the guidance of [Olshansky] and the other amazing members of the
-protocol team Bryan, Redouane, Dima - all who have a lot more industry
+protocol team [Bryan], [Redouane], [Dmitry] - all who have a lot more industry
 experience than I do; I have managed to build my intuition on problem solving
 which is the hardest thing, in my opinion, when it comes to programming. Writing
 code is easy; debugging is hard; testing is a ball-ache; but the way you approach
@@ -246,6 +246,9 @@ believe that we will soon enter the `PoktVerse` 🪐 phase:
 [mstdocs]: https://github.com/pokt-network/smt/blob/main/docs/MerkleSumTrie.md
 [olshansky]: https://olshansky.info
 [plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
+[bryan]: https://x.com/bryanchriswhite
+[redouane]: https://x.com/redzeratul
+[dmitry]: https://x.com/kdasme
 [poktroll]: https://github.com/pokt-network/poktroll
 [ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
 [ring-go]: https://github.com/noot/ring-go
