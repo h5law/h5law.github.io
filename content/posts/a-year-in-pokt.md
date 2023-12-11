@@ -115,6 +115,8 @@ in the field of trees/tries 🌴 with the [SMT repo][smt] that I have taken over
 since [celestia] archived [their repo](https://github.com/celestiaorg/smt)
 which we were using previously.
 
+![Get Out The Kitchen](/media/cant-handle-the-heat.gif#center)
+
 Since taking over I have merged in numerous features:
 
 1. Lazy Loading (developed by celestia but never finished)
