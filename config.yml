@@ -7,7 +7,7 @@ languageCode: "en-gb"
 enablenableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: true
-buildFuture: true
+buildFuture: false
 buildExpired: false
 enableEmoji: true
 googleAnalytics: UA-123-45

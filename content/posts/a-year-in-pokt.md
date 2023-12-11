@@ -3,7 +3,7 @@ title = "A Year In POKT"
 date = 2023-12-14
 categories = [ "articles" ]
 tags = [ "pokt", "development" ]
-draft = true
+draft = false 
 +++
 
 <!-- toc -->
@@ -22,7 +22,12 @@ draft = true
 
 ## Introduction
 
-Hey 👋, I'm [h5law](https://github.com/h5law), a protocol developer at
+Hey 👋, I'm [h5law](https://github.com/h5law). I'm 23, in my first year of a
+Computer Science degree at university 👨🏼‍💻 (starting a little late but that's a story
+for another day). This last year has been a wild ride for me, and as "memoir"
+of sorts I thought I'd write down some of the highlights.
+
+So in addition to being a student I am a protocol developer at
 [Pocket Network](https://pokt.network) working on building out the new version
 of the protocol - referred to as "Shannon". We are building a permissionless,
 decentralised RPC network that incentivises API services in general. The main
@@ -132,18 +137,18 @@ another post but all I should say is:
 
 If you are familiar with RPC providers in general you would know providers such
 as Lava, Ankr and Alchemy utilise `Compute Units` 💾 these allow for each RPC call
-to be paid for proportioal to the cost required to execute it. This is beneficial
+to be paid for proportional to the cost required to execute it. This is beneficial
 as it rewards suppliers for providing more demanding services and thus gives
 more access to those services.
 
 I am leading the work on integrating `Compute Units` into Shannon, this is one
 of the main reasons I made the [SMST][mstdocs] as we can attach a `weight` or
-`sum` to each relay/response a supplier inserts into their tree and get and easy
-accounting for how much work they did.
+`sum` to each relay/response a supplier inserts into their tree and easily get
+an accounting for how much work they did.
 
 It is super exciting to be working on getting this feature into the protocol,
 with out-of-the-box ideas instead of the typical verbose approach one would
-immediately think of. Again big shout out to Olshansky and Ramiro from
+immediately think of. Again big shout out to Olshansky and [Ramiro] from
 [PoktScan](https://poktscan.com) for helping me flesh out these ideas before we
 begin the implementation.
 
@@ -159,7 +164,7 @@ eliminated is actually amazing and I am so proud to be a part of it.
 My main contribution to the Application\<->Gateway interaction was (un)delegation.
 This allows for an application to delegate trust to a gateway such that the
 gateway can sign incoming requests from the application on its behalf. All of
-this works through the usage of [ring signatures][ring-go] ✍🏻 and the
+this works through the usage of [ring signatures][ring-go] 💍✍🏻 and the
 [`RingCache`][ring-cache] which handles the creation and naturally caching of
 rings on behalf of anyone who requires them, (applications and gateways for
 signing request and suppliers for verifying requests).
@@ -213,13 +218,21 @@ my world all that matters is:
 
 ## The Ugly
 
-Some of you may know that I am at university 🎓, studying computer science
-surprisingly. Doing both university full time, exams, coursework, lectures,
-practicals etc. On top of the full-time work I do at POKT. It has been a lot,
-and it has definitely been ugly 😖. But I've achieved time management skills
+As I said previously, I am at university 🎓 full time as well as doing all this
+work with Pocket. Surprisingly this isn't the easiest thing to do.
+
+Doing both university full time (with all the: exams, coursework, lectures,
+practicals etc.), on top of the full-time work I do at Pocket, has been a lot.
+It has definitely been ugly 😖. But I've achieved time management skills
 like no one would believe. I surprise myself sometimes with how I manage it all.
 It's far from easy but its most definitely the ugliest part of the POKT+UNI
 combination.
+
+I think I've come close to burning out a couple times, I'm definitely someone
+who gives 100% to whatever I do and this level of intensity is tough. But I love
+it. The title of this section may be a little misleading in that regard. It's
+tough, it's hard, but there's nothing I'd rather be doing than what I am doing
+right now.
 
 ## Summary
 
@@ -237,19 +250,27 @@ believe that we will soon enter the `PoktVerse` 🪐 phase:
 - Our innovative technology is used across the entire industry
 - We moon? 🌝
 
+In Web3 (and Crypto in general) it doesn't matter **who** you are. All that
+matters is **what** you can do. Your past isn't important, neither where you
+have come from. I think this is the best part of the industry. And I'm really
+looking forward to what comes next, so pay attention 😉.
+
+![Things Are Changing](/media/things-are-changing.gif#center)
+
+[bryan]: https://x.com/bryanchriswhite
 [celestia]: https://celestia.org
 [cli]: https://github.com/pokt-network/pocket/tree/main/app/client/cli
 [clpdocs]: https://github.com/pokt-network/smt/blob/main/docs/SMT.md#closest-proof
 [cosmos]: https://github.com/cosmos/cosmos-sdk
 [crypto]: https://github.com/pokt-network/pocket/tree/main/shared/crypto
+[dmitry]: https://x.com/kdasme
 [keybase]: https://github.com/pokt-network/pocket/tree/main/app/client/keybase
 [mstdocs]: https://github.com/pokt-network/smt/blob/main/docs/MerkleSumTrie.md
 [olshansky]: https://olshansky.info
 [plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
-[bryan]: https://x.com/bryanchriswhite
-[redouane]: https://x.com/redzeratul
-[dmitry]: https://x.com/kdasme
 [poktroll]: https://github.com/pokt-network/poktroll
+[redouane]: https://x.com/redzeratul
+[ramiro]: https://twitter.com/Rama_stdout
 [ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
 [ring-go]: https://github.com/noot/ring-go
 [rmpaper]: https://arxiv.org/abs/2305.10672
