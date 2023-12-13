@@ -192,7 +192,7 @@ with my whole self.
 
 Personally, I find it hard to find any downsides to my work here at Pocket.
 Going from a community contributor to working full time on the protocol, I live
-and breath POKT. I love this project, I have ideas 💡 ranging from pre-testnet,
+and breathe POKT. I love this project, I have ideas 💡 ranging from pre-testnet,
 to testnet and after mainnet. And I want to see all these implemented. It's been
 great to have my say and shape the protocol - or at least influence its shape.
 
