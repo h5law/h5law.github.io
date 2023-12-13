@@ -24,7 +24,7 @@ draft = false
 
 Hey 👋, I'm [h5law](https://github.com/h5law). I'm 23, in my first year of a
 Computer Science degree at university 👨🏼‍💻 (starting a little late but that's a story
-for another day). This last year has been a wild ride for me, and as "memoir"
+for another day). This last year has been a wild ride for me, and as a "memoir"
 of sorts I thought I'd write down some of the highlights.
 
 So in addition to being a student I am a protocol developer at
