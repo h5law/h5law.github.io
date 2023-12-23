@@ -3,7 +3,7 @@ title = "A Year In POKT"
 date = 2023-12-14T07:00:00+01:00
 categories = [ "articles" ]
 tags = [ "pokt", "development" ]
-draft = false 
+draft = false
 +++
 
 <!-- toc -->
@@ -205,8 +205,8 @@ rapidly and everyone is committing their all. Working weekends, late nights etc.
 But occasionally there are miscommunications and this is expected working in a
 team. Maybe its because I haven't worked in the "traditional" corporate setting,
 but it seems my style of work doesn't fit well with others. I think the new
-generation hussles, grinds and works differently from the generations that came
-before us. The rest of the team work hard; they grind; they hussle; just
+generation hustles, grinds and works differently from the generations that came
+before us. The rest of the team work hard; they grind; they hustle; just
 differently.
 
 ![Hustling My Whole Life](/media/hustling-whole-life.gif#center)
@@ -271,8 +271,8 @@ looking forward to what comes next, so pay attention 😉.
 [olshansky]: https://olshansky.info
 [plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
 [poktroll]: https://github.com/pokt-network/poktroll
-[redouane]: https://x.com/redzeratul
 [ramiro]: https://twitter.com/Rama_stdout
+[redouane]: https://x.com/redzeratul
 [ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
 [ring-go]: https://github.com/noot/ring-go
 [rmpaper]: https://arxiv.org/abs/2305.10672

@@ -96,6 +96,8 @@ params:
       url: "https://x.com/h5law"
     - name: github
       url: "https://github.com/h5law"
+    - name: mirror
+      url: "https://mirror.xyz/h5law.eth"
     - name: rss
       url: "https://h5law.com/index.xml"
 
