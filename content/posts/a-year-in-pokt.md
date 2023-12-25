@@ -1,10 +1,12 @@
-+++
-title = "A Year In POKT"
-date = 2023-12-14T07:00:00+01:00
-categories = [ "articles" ]
-tags = [ "pokt", "development" ]
-draft = false
-+++
+---
+title: "A Year In POKT"
+date: 2023-12-14T07:00:00+01:00
+categories: "articles"
+tags:
+  - "pokt"
+  - "development"
+draft: false
+---
 
 <!-- toc -->
 
@@ -87,22 +89,22 @@ I have honestly learned so much, its unbelievable how many challenges you face
 when building something completely new, from the ground up. It's true you
 shouldn't re-invent the wheel but what if the wheel never existed in the first
 place? We have had to make so many cool things that honestly make me so proud to
-work with such a great team and build such an **amazing** and **inovative**
+work with such a great team and build such an **amazing** and **innovative**
 protocol.
 
 From the guidance of [Olshansky] and the other amazing members of the
 protocol team [Bryan], [Redouane], [Dmitry] - all who have a lot more industry
-experience than I do; I have managed to build my intuition on problem solving
-which is the hardest thing, in my opinion, when it comes to programming. Writing
+experience than I do; I have managed to build my intuition on problem solving,
+which is the hardest thing (in my opinion) when it comes to programming. Writing
 code is easy; debugging is hard; testing is a ball-ache; but the way you approach
-a problem, especially one you haven't encountered before is by far the most
+a problem, _especially one you haven't encountered before_ is by far the most
 challenging aspect of development.
 
 As part of building out the [Shannon][poktroll] upgrade to the protocol, I am
 still involved heavily in the cryptographic side of things. Integrating ring
 signatures for our App to Gateway delegation process and request signing. I've
 been able to contribute back to the [library][ring-go] we use, which I find
-so cool.
+**so cool**.
 
 So lets break down some of the highlights of this year. Of course there will be
 lots of exciting things I am going to miss out, otherwise this blog would be
@@ -120,11 +122,13 @@ which we were using previously.
 Since taking over I have merged in numerous features:
 
 1. Lazy Loading (developed by celestia but never finished)
-1. [Merkle Sum Trie][mstdocs]
-   - A _possibly_ world first implementation of a (Sparse) Merkle Sum Tree/Trie
-     implementation based on the [plasma specification][plasmaspec]
-1. The [`ClosestProof`][clpdocs] proof mechanism
+1. A Merkle Sum Trie
+   - A _possibly_ world first implementation of a (Sparse) Merkle Sum Trie
+     implementation, based on the [plasma specification][plasmaspec]
+1. The `ClosestProof` commit and reveal proof mechanism
    - This is a novel proof mechanic based off the [Relay Mining Paper][rmpaper]
+
+Documentation for all of this can be found [here][smtdocs].
 
 We had our first [external PR](https://github.com/pokt-network/smt/pull/28) and
 as such discovered [IOTA Ledger](https://github.com/iotaledger/hive.go) are using
@@ -144,9 +148,9 @@ as it rewards suppliers for providing more demanding services and thus gives
 more access to those services.
 
 I am leading the work on integrating `Compute Units` into Shannon, this is one
-of the main reasons I made the [SMST][mstdocs] as we can attach a `weight` or
-`sum` to each relay/response a supplier inserts into their tree and easily get
-an accounting for how much work they did.
+of the main reasons I made the Sparse Merkle Sum Trie (SMST) as we can attach a
+`weight` or `sum` to each relay & response pair a supplier inserts into their
+trie and easily get an accounting for how much work they did.
 
 It is super exciting to be working on getting this feature into the protocol,
 with out-of-the-box ideas instead of the typical verbose approach one would
@@ -157,13 +161,13 @@ begin the implementation.
 ### Gateways And Rings
 
 I implemented the on-chain gateway actor and in conjunction with Redouane built
-our MVP off-chain `appgateserver` (which is essentially a gateway like Portal
-or NodiesDLB). We are currently working on building out an SDK to allow for
+our MVP off-chain `appgateserver` (which is essentially a gateway like [Portal]
+or [NodiesDLB]). We are currently working on building out an SDK to allow for
 Gateways and applications to interact with the chain. All of this is under
 active development but seeing some of the issues with Morse (v1) being
 eliminated is actually amazing and I am so proud to be a part of it.
 
-My main contribution to the Application\<->Gateway interaction was (un)delegation.
+My main contribution to the Application<->Gateway interaction was (un)delegation.
 This allows for an application to delegate trust to a gateway such that the
 gateway can sign incoming requests from the application on its behalf. All of
 this works through the usage of [ring signatures][ring-go] 💍✍🏻 and the
@@ -216,7 +220,7 @@ from a community contributor to a full time core protocol dev, it has become a
 job, there are more rules; people to please; feelings to take into account. In
 my world all that matters is:
 
-> Can you deliver?
+> Can you deliver? 📬
 
 ## The Ugly
 
@@ -259,20 +263,22 @@ looking forward to what comes next, so pay attention 😉.
 
 ![Things Are Changing](/media/things-are-changing.gif#center)
 
-[bryan]: https://x.com/bryanchriswhite
+{{< subscribe-button >}}
+
+[bryan]: https://github.com/bryanchriswhite
 [celestia]: https://celestia.org
 [cli]: https://github.com/pokt-network/pocket/tree/main/app/client/cli
 [clpdocs]: https://github.com/pokt-network/smt/blob/main/docs/SMT.md#closest-proof
 [cosmos]: https://github.com/cosmos/cosmos-sdk
 [crypto]: https://github.com/pokt-network/pocket/tree/main/shared/crypto
-[dmitry]: https://x.com/kdasme
+[dmitry]: https://github.com/okdas
 [keybase]: https://github.com/pokt-network/pocket/tree/main/app/client/keybase
-[mstdocs]: https://github.com/pokt-network/smt/blob/main/docs/MerkleSumTrie.md
+[smtdocs]: https://github.com/pokt-network/smt/tree/main/docs
 [olshansky]: https://olshansky.info
 [plasmaspec]: https://plasma-core.readthedocs.io/en/latest/specs/sum-tree.html
 [poktroll]: https://github.com/pokt-network/poktroll
-[ramiro]: https://twitter.com/Rama_stdout
-[redouane]: https://x.com/redzeratul
+[ramiro]: https://rawthil.com.ar
+[redouane]: https://github.com/red-0ne
 [ring-cache]: https://github.com/pokt-network/poktroll/tree/main/pkg/crypto/rings
 [ring-go]: https://github.com/noot/ring-go
 [rmpaper]: https://arxiv.org/abs/2305.10672
@@ -281,3 +287,5 @@ looking forward to what comes next, so pay attention 😉.
 [slip0010]: https://github.com/pokt-network/pocket/tree/main/shared/crypto/slip
 [smt]: https://github.com/pokt-network/smt
 [v1]: https://github.com/pokt-network/pocket
+[portal]: https://grove.city
+[nodiesdlb]: https://www.nodies.app

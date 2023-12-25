@@ -32,6 +32,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
+  customCSS: ["css/custom.css"]
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -96,8 +97,8 @@ params:
       url: "https://x.com/h5law"
     - name: github
       url: "https://github.com/h5law"
-    - name: mirror
-      url: "https://mirror.xyz/h5law.eth"
+    - name: substack
+      url: "https://h5law.substack.com"
     - name: rss
       url: "https://h5law.com/index.xml"
 
