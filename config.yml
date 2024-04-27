@@ -33,6 +33,8 @@ params:
   disableThemeToggle: false
   customCSS: ["css/custom.css"]
 
+  math: true
+
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -46,7 +48,7 @@ params:
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
@@ -177,3 +179,19 @@ markup:
     guessSyntax: true
     lineNos: true
     style: dracula
+
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+            - - $
+              - $
+        enable: true
