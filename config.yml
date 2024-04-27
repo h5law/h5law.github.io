@@ -1,4 +1,4 @@
-baseURL: "https://h5law.com/"
+baseURL: "https://h5law.com"
 title: h5law
 paginate: 5
 theme: "PaperMod"
@@ -23,12 +23,11 @@ outputs:
     - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   title: h5law
   description: "h5law's personal site"
   keywords: [Blog, Portfolio]
   author: h5law
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -74,16 +73,18 @@ params:
   profileMode:
     enabled: true
     title: "h5law"
-    subtitle: "Welcome To My Site 👋"
+    subtitle: "¡Hola! 👋🏼‍"
     content: >
-      This is intended to be a collection of articles, write ups on projects and quick thoughts. For a **tl;dr** on me:
+      This is intended to be a collection of articles and project write ups.
+
+      **tl;dr**:
     tldr: >
-      Protocol Developer 👨🏼‍💻
-
-
       Notorious Industry Plant 🪴
+
+
+      Protocol Developer 👨🏼‍💻
     imageUrl: "/img/icon.png"
-    imageTitle: "h5law - Protocol Developer" # optional
+    imageTitle: "h5law - Protocol Developer"
     imageWidth: 192
     imageHeight: 192
     buttons:

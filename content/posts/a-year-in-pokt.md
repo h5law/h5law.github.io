@@ -1,7 +1,7 @@
 ---
 title: "A Year In POKT"
 date: 2023-12-14T07:00:00+01:00
-categories: "articles"
+category: "articles"
 tags:
   - "pokt"
   - "development"
@@ -24,15 +24,18 @@ draft: false
 
 ## Introduction
 
-Hey 👋, I'm [h5law](https://github.com/h5law). I'm 23, in my first year of a
-Computer Science degree at university 👨🏼‍💻 (starting a little late but that's a story
-for another day). This last year has been a wild ride for me, and as a "memoir"
-of sorts I thought I'd write down some of the highlights.
+Hey 👋, I'm [h5law](https://github.com/h5law). I'm 23, I am on a one year
+foundation degree in Computer Science at university - a full 3 year course seemed
+pointless to me in today's times. I will probably say this a few times but in Web3
+its not about who you are, but what you can deliver. If you can learn something
+yourself and get to a point where you are able to ship feature after feature
+without any degree, I see that as a win. This last year has been a wild ride for
+me, and as a "memoir" of sorts I thought I'd write down some of the highlights.
 
 So in addition to being a student I am a protocol developer at
 [Pocket Network](https://pokt.network) working on building out the new version
 of the protocol - referred to as "Shannon". We are building a permissionless,
-decentralised RPC network that incentivises API services in general. The main
+decentralised RPC network that incentivise API services in general. The main
 focus at the moment is for Web3 projects, Blockchains and dApp developers but
 the longer term vision is for Pocket to be the base layer for RPC access to any
 and all API services (LLMs, and whatever else you can run we could service your
@@ -74,12 +77,11 @@ detailing everything so I won't go into it all now. But as a result it meant
 starting over with: a new stack, a new codebase and unfortunately a lot of the
 work I had previously done was scrapped in favour of the multitude of things
 that come for free out of the box with using [`cosmos-sdk`][cosmos] (rollups
-using [rollkit] on [celestia] can still use the sdk as if
-they were building a regular app-chain) and benefit from all the work done in the
-[cosmos] ecosystem.
+using [rollkit] on [celestia] can still use the sdk as if they were building a
+regular app-chain) and benefit from all the work done in the [cosmos] ecosystem.
 
-So lets get into this last year: the [**good**](#the-good), the
-[**bad**](#the-bad) and the [**ugly**](#the-ugly).
+So lets get into this last year: the [**good**](#the-good), the [**bad**](#the-bad)
+and the [**ugly**](#the-ugly).
 
 ![Good Bad Ugly](/media/good-bad-ugly.gif#center)
 
@@ -125,8 +127,8 @@ Since taking over I have merged in numerous features:
 1. A Merkle Sum Trie
    - A _possibly_ world first implementation of a (Sparse) Merkle Sum Trie
      implementation, based on the [plasma specification][plasmaspec]
-1. The `ClosestProof` commit and reveal proof mechanism
-   - This is a novel proof mechanic based off the [Relay Mining Paper][rmpaper]
+1. The `ClosestProof` deterministic commit and reveal proof mechanism
+   - This is a novel proof mechanism based off of the [Relay Mining Paper][rmpaper]
 
 Documentation for all of this can be found [here][smtdocs].
 
@@ -165,15 +167,15 @@ our MVP off-chain `appgateserver` (which is essentially a gateway like [Portal]
 or [NodiesDLB]). We are currently working on building out an SDK to allow for
 Gateways and applications to interact with the chain. All of this is under
 active development but seeing some of the issues with Morse (v1) being
-eliminated is actually amazing and I am so proud to be a part of it.
+eliminated is actually amazing and I am really honoured to be a part of it.
 
-My main contribution to the Application<->Gateway interaction was (un)delegation.
-This allows for an application to delegate trust to a gateway such that the
-gateway can sign incoming requests from the application on its behalf. All of
-this works through the usage of [ring signatures][ring-go] 💍✍🏻 and the
-[`RingCache`][ring-cache] which handles the creation and naturally caching of
-rings on behalf of anyone who requires them, (applications and gateways for
-signing request and suppliers for verifying requests).
+My main feature of the interactions between Applications and Gateways was
+(un)delegation. This allows for an application to delegate trust to a gateway
+such that the gateway can sign incoming requests from the application on its
+behalf. All of this works through the usage of [ring signatures][ring-go] 💍✍🏻 
+and the [`RingCache`][ring-cache] which handles the creation and, obviously,
+caching of rings on behalf of anyone who requires them, (applications and
+gateways for signing request and suppliers for verifying requests).
 
 Cryptography has definitely stood out to me as being another area of interest,
 and I hope that *soon*™️ , I will be on the same level of knowledge and
