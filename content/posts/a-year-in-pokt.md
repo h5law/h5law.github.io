@@ -1,7 +1,7 @@
 ---
 title: "A Year In POKT"
 date: 2023-12-14T07:00:00+01:00
-category: "articles"
+categories: "articles"
 tags:
   - "pokt"
   - "development"
