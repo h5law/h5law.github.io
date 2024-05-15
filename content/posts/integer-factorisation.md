@@ -15,6 +15,7 @@ draft: true
 - [Introduction](#introduction)
   - [Sieve of Eratosthenes](#sieve-of-eratosthenes)
 - [Primality Testing](#primality-testing)
+  - [Miller-Rabin Primality Test](#miller-rabin-primality-test)
   - [AKS Primality Test](#aks-primality-test)
 <!-- tocstop -->
 
@@ -87,6 +88,8 @@ without going through every number before them.
 Primality testing is simply the act of discovering whether an integer is prime
 or not. There are a number of algorithms to do this, one of the most famous being
 the Miller-Rabin primality test, and the new AKS primality test.
+
+## Miller-Rabin Primality Test
 
 The Miller-Rabin primality test is 100% accurate for integers $\le2^{64}-1$ or
 simply all `uint64` integers and up to 3.3 septillion with some variations. But
@@ -241,7 +244,9 @@ func MillerRabin(n *big.Int, rounds int, force2 bool) bool {
 ```
 
 By using $25$ rounds we can achieve almost 100% accuracy and can probabilistically
-guarantee the primality of $n$ for arbitrarily large numbers.
+guarantee the primality of $n$ for arbitrarily large numbers, using random bases
+during the test - by forcing the use of $2$ as a base we increase the chance
+of determining whether a number is prime.
 
 ## AKS Primality Test
 
