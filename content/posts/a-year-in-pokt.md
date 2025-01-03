@@ -3,7 +3,8 @@ title: "A Year In POKT"
 date: 2023-12-14T07:00:00+01:00
 categories: "articles"
 tags:
-  - "pokt"
+  - "blockchain"
+  - "crypto"
   - "development"
 draft: false
 ---
@@ -24,13 +25,12 @@ draft: false
 
 ## Introduction
 
-Hey 👋, I'm [h5law](https://github.com/h5law). I'm 23, I am on a one year
-foundation degree in Computer Science at university - a full 3 year course seemed
-pointless to me in today's times. I will probably say this a few times but in Web3
-its not about who you are, but what you can deliver. If you can learn something
-yourself and get to a point where you are able to ship feature after feature
-without any degree, I see that as a win. This last year has been a wild ride for
-me, and as a "memoir" of sorts I thought I'd write down some of the highlights.
+Hey 👋, I'm [h5law](https://github.com/h5law). I will probably say this a few
+times but in Web3 its not about who you are, but what you can deliver. If you
+can learn something yourself and get to a point where you are able to ship
+feature after feature without any degree or other expensive pieces of paper,
+then I see that as a win. This last year has been a wild ride for me, and as a
+"memoir" of sorts I thought I'd write down some of the highlights.
 
 So in addition to being a student I am a protocol developer at
 [Pocket Network](https://pokt.network) working on building out the new version
@@ -172,7 +172,7 @@ eliminated is actually amazing and I am really honoured to be a part of it.
 My main feature of the interactions between Applications and Gateways was
 (un)delegation. This allows for an application to delegate trust to a gateway
 such that the gateway can sign incoming requests from the application on its
-behalf. All of this works through the usage of [ring signatures][ring-go] 💍✍🏻 
+behalf. All of this works through the usage of [ring signatures][ring-go] 💍✍🏻
 and the [`RingCache`][ring-cache] which handles the creation and, obviously,
 caching of rings on behalf of anyone who requires them, (applications and
 gateways for signing request and suppliers for verifying requests).

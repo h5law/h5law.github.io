@@ -1,6 +1,8 @@
+---
 baseURL: "https://h5law.com"
 title: h5law
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: "PaperMod"
 languageCode: "en-gb"
 
@@ -24,8 +26,8 @@ outputs:
 
 params:
   env: production
-  title: h5law
-  description: "h5law's personal site"
+  title: n0n5en5e
+  description: "a journey into the depths of h5law's mental"
   keywords: [Blog, Portfolio]
   author: h5law
   DateFormat: "January 2, 2006"
@@ -51,7 +53,7 @@ params:
   tocopen: false
 
   assets:
-    disableHLJS: true # to disable highlight.js
+    disableHLJS: false # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/img/favicon.ico"
     favicon16x16: "/img/favicon-16x16.png"
@@ -60,31 +62,21 @@ params:
     safari_pinned_tab: "/img/favicon.ico"
 
   label:
-    text: "h5law"
+    text: "'; DROP * --;"
     icon: "/img/icon.png"
     iconHeight: 30
-
-  # home-info mode
-  # homeInfoParams:
-  #   enabled: false
-  #   Title: "Hey \U0001F44B"
-  #   Subtitle: "Welcome to my blog!"
 
   profileMode:
     enabled: true
     title: "h5law"
-    subtitle: "¡Hola! 👋🏼‍"
+    subtitle: "wa55in3ry"
     content: >
-      This is intended to be a collection of articles and project write ups.
-
-      **tl;dr**:
-    tldr: >
-      Notorious Industry Plant 🪴
+      Doing it all from scratch because I don't know how to use libs apparently.
+      Slowly but surely reinventing every wheel, one bug at a time.
 
 
-      Protocol Developer 👨🏼‍💻
     imageUrl: "/img/icon.png"
-    imageTitle: "h5law - Protocol Developer"
+    imageTitle: "5fiddy"
     imageWidth: 192
     imageHeight: 192
     buttons:
