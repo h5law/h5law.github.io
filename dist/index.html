@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-
 <head>
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta charset="UTF-8">
   <title> SEG/FAULT </title>
   <style>
@@ -31,7 +29,7 @@ body.light {
 * {
   margin: 0;
   padding: 0;
-} 
+}
 
 body {
   background: var(--clr-bg);
@@ -170,15 +168,16 @@ nav.navbar {
   }
 }
 </style>
- 
+
 </head>
 
 <nav class="navbar">
   <a href="index.html" class="nav__logo"> SEG/FAULT </a>
   <ul class="nav__links">
-    <a href="https://h5law.com/cv.pdf">CV</a>
-    <a href=" https://github.com/h5law ">GitHub</a>
-    <a href=" https://x.com/h5law ">Twitter</a>
+    <a target="_blank" href=" http://cgit.blink.com ">cgit</a>
+    <a target="_blank" href=" https://github.com/h5law ">GitHub</a>
+    <a target="_blank" type="application/pdf" href=" cv.pdf ">CV</a>
+    <a target="_blank" type="text/plain" href=" key.txt ">GPG</a>
     <button id="themeBtn" class="theme-btn"></button>
   </ul>
 </nav>
@@ -186,21 +185,21 @@ nav.navbar {
 <ul class="listing">
   <li class="list__itm">
   <a href=" intro.html ">
-    Where to begin? 
+    Where to begin?
   </a>
   <hr class="list__hr">
   <time class="list__date">
-    2025-03-27 01:06:02 
+    2025-03-27 01:06:02
   </time>
 </li>
- 
+
 </ul>
 
  <script>
 const themeBtn = document.getElementById('themeBtn')
 const body = document.getElementsByTagName('body')[0]
 
-window.matchMedia('prefers-color-scheme: dark').matches ? 
+window.matchMedia('prefers-color-scheme: dark').matches ?
   body.classList.add('light') :
   body.classList.add('dark');
 
@@ -221,4 +220,4 @@ themeBtn.addEventListener("click", () => {
 })
 
 </script>
- 
+
