@@ -5,31 +5,57 @@ Order=0
 # Who even am I?
 
 I have struggled with this question a lot. I have been many people, assumed
-many faces. Some good, others bad but none really me. I am not too old, -
-yet not very young either. I have lived an untraditional life. Sold drugs,
-battled addictions, wrestled with my mental health, served prison time,
-found god, disconnected from the real world and given all I had away yet here
-I am. Writing an introductory post to my blog or thought dump website.
+many faces. Some good, others not so, but none felt entirely me. I am still
+relatively young and have lived an completely untraditional life. I've battled
+addictions, wrestled with my mental health and served prison time, yet in all
+this chaos I experienced a multitude of rock-bottoms and pinnacles.
 
-In prison I learnt I love to learn, and through all the troubles I still do
-and continue to learn something new everyday. Its so cliche but its true. I
-feel the moment I stop reaching into the unknown, the moment I stop trying to
-solve problems; that's when I will have died, a spiritual death. I, as I am
-now, would no longer exist.
+From sleeping on the streets, to riding jet skis along the coasts of Dubai.
+Giving all I had away, and having more than I could ever need. Its been a wild
+ride. I often say that it feels as if I have lived through enough to account for
+several lifetimes.
 
-I won't make this post too long so here are some of my interests:
-- C
-- Go
-- Programming
-- Operating Systems
-- Systems Programming
-- Writing Old School Runescape Bots
-- Philosophy
-- Reading
-- And more.
+But with the chaos and calamity firmly in the past I feel as if I am genuinely
+living an entirely new life. The differences are too much to count but each is
+a blessing in its own right and I am thankful to even be here now, let alone
+finally free from a life wrought with pain ultimately. However, as free from my
+past as I may feel I am always concious of the time I spent in prison, where I
+matured from a boy to a man mentally and became the man I am now through
+will and determination.
+
+In prison I learnt that I love to learn. Or more accurately, I rediscovered my
+love of learning. Whatever the subject I can dig my teeth in. First it was
+Theology and Religious texts, then expanding into Philosophy, then Maths.
+Surprisingly without a computer, no means by which to practice or explore these
+new concepts I was exploring in depth; I found a love for Computing behind a
+cell door. I had my brother printing out Wikipedia pages of words I had never
+heard and sending them into me only for me to ask for even more after reading
+them. I learned the inner-workings of Bitcoin, UTXOs, the EVM and Solidity from
+books and couldn't wait to get behind a computer.
+
+After being released, a new man with drive and determination, spirit in
+abundance. I got to learning more and more. Reading the classics in the world of
+Philosophy, 20th century classical literature and of course finally putting
+finger to keyboard and immersing myself in code. Algorithms, Data Structures,
+Design Patterns, Crypography, Distributed and Low-level systems I couldn't get
+enough. I am still as keen and eager to expand what is possible for me, both
+mentally challenging myself and physically in what I take part in as well.
+
+So, now I am here writing the whistle-stop-tour of an introduction to who I am.
+I opened by saying something I say a lot: 'I have been many people' but to
+expand upon this slogan. I have never been more thankful to be who I am now.
+To keep this introduction from being too long I will end with a set of subjects
+I intend to write about here for my own sake:
+
+- C, Assembly, Operating Systems and Low-level Programming
+- Philosophy, Theology and Articulations of my System of Thought
+- Stories from the many lifetimes I have experienced for better or worse
+- Personal Blogs covering the Projects I am working on
+- Maybe a book or two we'll see
 
 I am sure I will be writing on some of these subjects soon.
 
 Till next time,
+
 
 h5 (h5law)
