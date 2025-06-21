@@ -1,19 +1,19 @@
-Title=Where to begin?
+Title=Discovering Programming at the Darkest Point in my Life
 Date=2025-06-21 11:01:42
 Order=0
 
-# Who even am I?
+# Discovering Programming at the Darkest Point in my Life
 ## From Prison to Programming: A Journey from Chaos to Code
 
 Throughout my life, I've been many different people, each with their own mask.
-Some were good, others not so good, but none felt entirely "me". Despite my apparent
-youth, I have already lived many completely untraditional lives. I've battled
-addictions, wrestled with my mental health, and even served prison time. In all
-this chaos, I have experienced both rock bottom and the top of the mountain. I
-used to think the way my life had unfolded up to now was normal and common to
-most people but as I started to venture out of the echo chamber of poor
-decisions and regrettable actions I had found myself in. I realised my life was
-anything but normal.
+Some of these masks were not entirely bad, but none ever felt like they
+represented who I really was. Despite my apparent youth, I have already lived
+many completely untraditional lives. I've battled addictions, wrestled with my
+mental health, and even served prison time. In all this chaos, I have experienced
+both rock bottom and the top of the mountain. I used to think the way my life
+had unfolded up to now was normal and common to most people but as I started to
+venture out of the echo chamber of poor decisions and regrettable actions I had
+found myself in. I realised my life was anything but normal.
 
 Most teenagers don't sleep rough in a car park alienated from their families.
 Or get sectioned and taken to mental hospitals across the country. They don't get
