@@ -12,7 +12,7 @@ addictions, wrestled with my mental health, and even served prison time. In all
 this chaos, I have experienced both rock bottom and the top of the mountain. I
 used to think the way my life had unfolded up to now was normal and common to
 most people but as I started to venture out of the echo chamber of poor
-decisions and regrettable actions I had found myself in I realised my life was
+decisions and regrettable actions I had found myself in. I realised my life was
 anything but normal.
 
 Most teenagers don't sleep rough in a car park alienated from their families.
