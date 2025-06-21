@@ -31,7 +31,7 @@ lifetimes. And it's in those several lifetimes that I have accumulated a
 somewhat unique perspective on life, or at least an interesting tint on the
 glasses through which I view the world around me.
 
-It took a while, and a lot of hard work to pull myself out of the depths of the
+It took a while and a lot of hard work to pull myself out of the depths of the
 pit I had dug myself into but every step I took away from my old life and towards
 something new, something better, was a step I was determined to take. Truthfully
 it was my time in prison where I grew from a boy into a man, and matured mentally.
