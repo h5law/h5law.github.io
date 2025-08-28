@@ -14,8 +14,8 @@ living on the streets and got taken in by a dealer, who became my mentor (and
 boss). Coincidentally he, "Irish Gary" was also the most terrifying man I have
 ever met in my life - coming from someone who sold crack and heroin, lived on
 the streets, been to prison and even a mental hospital; that is really saying
-something. It was him who taught me how to sell, how to avoid the police (which
-didn't work forever), how to hide things, how to check if you're being followed
+something. It was he who taught me how to sell; how to avoid the police (which
+didn't work forever); how to hide things; how to check if you're being followed
 and all these skills that I really excelled at picking up and implementing. Here,
 it wasn't really a love of selling drugs but instead a love of learning, an
 intense work-ethic and level of discipline I developed that I loved. I loved
@@ -32,15 +32,15 @@ a machete I had traded for seven grams of weed). To be clear it was just the
 possession of these "bladed articles" that I was convicted of, not their use.
 Despite investigation they found no evidence they had ever been used as
 anything more than a self-defensive deterrent. I have many stories of my past
-life I have now, thankfully, left behind entirely. I tend to say I've lived many
-lifetimes for someone my age, I've seen and been involved in a range of situations
+life, which I have now, thankfully, left behind entirely. I tend to say I've lived many
+lifetimes for someone my age; I've seen and been involved in a range of situations
 from horrific to enthralling. From the age of 14 I was thrust into a world many will
 never even experience. One of chaos, uncertainty, violence, dominance, threats,
-big risks and thus big rewards. I will leave the stories to other posts as it
+big risks but also big rewards. I will leave the stories to other posts as it
 would take a long time - as one might guess for someone who had been in an
 extremely large amount of weird, wild and sometimes entirely insane situations.
 But one that I will tell, the one this post is about is one from my time in
-prison. Although, I was forced to grow up fast I hadn't matured. But in prison
+prison. Although, I was forced to grow up fast, I hadn't matured. But in prison,
 I went from boy to man mentally. I discovered a new passion, something I seemed
 to be made for. A new passion I soon became obsessed with and yearned to become
 great at - to excel at this too. Unfortunately, I wasn't in the right space to
@@ -67,11 +67,11 @@ impact on me that I truly treasure them deeply. Despite having to wait for the
 wing copy to be available each time I had finished one and yearned for the next,
 I got through them all and then the true sessions of the 'Dojo' began.
 
-1. [The Price of Tomorrow - Jeff Bridges](https://amzn.eu/d/cfxzua2)
-1. [Layered Money - Nikhil Bhatia](https://amzn.eu/d/iDdYYT9)
-1. [Cashless - Richard Turin](https://amzn.eu/d/5c8Nhf7)
-1. [When Money Dies - Adam Furgusson](https://amzn.eu/d/e2G3jrz)
-1. [Mastering Ethereum - Dr. Gavin Wood + Andreas M. Antonopoulos](https://amzn.eu/d/iSs6JUj)
+1. The Price of Tomorrow - Jeff Bridges [1](https://amzn.eu/d/cfxzua2)
+1. Layered Money - Nikhil Bhatia [2](https://amzn.eu/d/iDdYYT9)
+1. Cashless - Richard Turin [3](https://amzn.eu/d/5c8Nhf7)
+1. When Money Dies - Adam Furgusson [4](https://amzn.eu/d/e2G3jrz)
+1. Mastering Ethereum - Dr. Gavin Wood + Andreas M. Antonopoulos [5](https://amzn.eu/d/iSs6JUj)
 
 From these books I learned about what money was, how it worked in our world.
 Something most people don't understand and I certainly didn't. Then slowly I was
