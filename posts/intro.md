@@ -6,21 +6,23 @@ Order=0
 ## From Prison to Programming: A Journey from Chaos to Code
 
 So I used to sell crack and heroin. I will be honest, in retrospect I didn't
-enter that lifestyle by choice but none the less - I learned to loved it.
-Maybe it was because of the money, the freedom, the risk, the power and
-respect, but what I really think I loved about the lifestyle was I was good at
-it. Now a completely useless skill but I was good at what I did. Earlier in my
-life I was living on the streets and got taken in - groomed essentially, by a
-dealer, who became my mentor (and boss). Coincidentally he, "Irish Gary" was
-also the most terrifying man I have ever met in my life - coming from someone
-who sold crack and heroin, lived on the streets, been to prison and even a few
-mental hospitals; that is really saying something. It was he who taught me how
-to sell; how to avoid the police (which didn't work forever); how to hide
-things; how to check if you're being followed and all these skills that I really
-excelled at picking up and implementing. He found me while I was living on a pile
-of cardboard boxes in a sleeping bag in a carpark. Each morning a security guard
-would come kick me and some other homeless people out, each night we would make
-our way back in for some shelter at least.
+enter that lifestyle by choice but none the less - it ended up consuming me.
+Maybe it was because of the money, the freedom, the risk, the power and respect,
+but what I really think I gravitated towards in the lifestyle was that I was
+good at it. Now a completely useless skill but I was good at what I did.
+Earlier in my life I was living on the streets and got taken in - groomed
+essentially, by a dealer, who became my mentor (and boss). Coincidentally he,
+"Irish Gary" was also the most terrifying man I have ever met in my life -
+coming from someone who sold crack and heroin, lived on the streets, been to
+prison and even a few mental hospitals; that is really saying something. It was
+he who taught me how to sell; how to avoid the police (which didn't work
+forever); how to hide things; how to check if you're being followed and all
+these skills that I really excelled at picking up and implementing. He found me
+while I was living on a pile of cardboard boxes in a sleeping bag in a carpark.
+Each morning a security guard would come kick me and some other homeless
+people out, each night we would make our way back in for some shelter at least.
+Yet, he gave me somewhere to stay and all I had to do was work for him. A
+simple decision.
 
 I had started taking drugs at 14 mostly smoking weed, which lead to self
 medicating my, at the time undiagnosed, bipolor disorder with boatloads of
