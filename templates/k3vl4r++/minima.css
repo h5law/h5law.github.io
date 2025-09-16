@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<head>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta charset="UTF-8">
-  <title> SEG/FAULT </title>
-  <style>
 :root {
   --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   --font-serif: Georgia, Times new roman;
@@ -167,47 +161,3 @@ nav.navbar {
     display: none;
   }
 }
-</style>
- 
-</head>
-
-<nav class="navbar">
-  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
-  <ul class="nav__links">
-    <a href=" https://github.com/h5law ">GitHub</a>
-    <a href=" https://www.linkedin.com/in/harryslaw ">LinkedIn</a>
-    <a href=" key.txt ">Keys</a>
-    <button id="themeBtn" class="theme-btn"></button>
-  </ul>
-</nav>
-
-<ul class="listing">
-   
-</ul>
-
- <script>
-const themeBtn = document.getElementById('themeBtn')
-const body = document.getElementsByTagName('body')[0]
-
-window.matchMedia('prefers-color-scheme: dark').matches ? 
-  body.classList.add('light') :
-  body.classList.add('dark');
-
-
-themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
-
-themeBtn.addEventListener("click", () => {
-  if (body.classList.contains('dark')) {
-    body.classList.remove('dark')
-    body.classList.add('light')
-  } else {
-    body.classList.remove('light')
-    body.classList.add('dark')
-  }
-
-  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
-
-})
-
-</script>
- 
