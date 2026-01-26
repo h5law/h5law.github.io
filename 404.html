@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title> SEG/FAULT </title>
+  <style>
+:root {
+  --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  --font-serif: Georgia, Times new roman;
+  --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+}
+
+body.dark {
+  --clr-text: #e7e5e4;
+  --clr-bg: #1c1917;
+  --clr-hr: #292524;
+  --clr-mono: white;
+  --clr-pre: #292524;
+}
+
+body.light {
+  --clr-text: #1c1917;
+  --clr-mono: black;
+  --clr-bg: #e7e5e4;
+  --clr-hr: #a8a29e;
+  --clr-pre: #d4d4d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  line-height: 1.4;
+  margin-block: 1rem;
+}
+
+ul:not(.listing),ol {
+  margin-left: 1rem;
+}
+
+ul li:not(.list_itm), ol {
+  margin-block: .5rem;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--clr-pre);
+  padding-inline: .5rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3 {
+  margin-block: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--clr-hr);
+  margin-bottom: 1rem;
+}
+
+.nav__logo {
+  color: var(--clr-mono);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.nav__links a {
+  color: inherit;
+}
+
+.theme-btn {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  text-decoration: underline;
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.list__itm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-serif);
+  margin-block: .5rem;
+}
+
+.list__itm a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+
+.list__itm time {
+  font-size: .95rem;
+  position: relative;
+}
+
+.list__hr {
+  flex: 1;
+  margin-inline: 0.5rem;
+  height: 1px;
+  border-top: var(--clr-hr) dotted 1px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+
+  .listing {
+    gap: 1.25rem;
+  }
+
+  .list__itm {
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+
+  .list__hr {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<nav class="navbar">
+  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
+  <ul class="nav__links">
+    <a target="_blank" href=" https://github.com/h5law ">GitHub</a>
+    <a target="_blank" href=" https://www.linkedin.com/in/harryslaw ">LinkedIn</a>
+    <a target="_blank" type="text/plain" href=" key.txt ">Keys</a>
+    <button id="themeBtn" class="theme-btn"></button>
+  </ul>
+</nav>
+
+<pre style="background:none">
+                             _,add8ba,
+                            ,d888888888b,
+                           d8888888888888b                        _,ad8ba,_
+                          d888888888888888)                     ,d888888888b,
+                          I8888888888888888 _________          ,8888888888888b
+                __________`Y88888888888888P"""""""""""baaa,__ ,888888888888888,
+            ,adP"""""""""""9888888888P""^                 ^""Y8888888888888888I
+         ,a8"^           ,d888P"888P^                           ^"Y8888888888P'
+       ,a8^            ,d8888'                                     ^Y8888888P'
+      a88'           ,d8888P'                                        I88P"^
+    ,d88'           d88888P'                                          "b,
+   ,d88'           d888888'                                            `b,
+  ,d88'           d888888I                                              `b,
+  d88I           ,8888888'            ___        404                     `b,
+ ,888'           d8888888          ,d88888b,              ____            `b,
+ d888           ,8888888I         d88888888b,           ,d8888b,           `b
+,8888           I8888888I        d8888888888I          ,88888888b           8,
+I8888           88888888b       d88888888888'          8888888888b          8I
+d8886           888888888       Y888888888P'           Y8888888888,        ,8b
+88888b          I88888888b      `Y8888888^             `Y888888888I        d88,
+Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
+`888888b         88888888888b,                           `Y8888P^        d88888
+ Y888888b       ,8888888888888ba,_          _______        `""^        ,d888888
+ I8888888b,    ,888888888888888888ba,_     d88888888b               ,ad8888888I
+ `888888888b,  I8888888888888888888888b,    ^"Y888P"^      ____.,ad88888888888I
+  88888888888b,`888888888888888888888888b,     ""      ad888888888888888888888'
+  8888888888888698888888888888888888888888b_,ad88ba,_,d88888888888888888888888
+  88888888888888888888888888888888888888888b,`"""^ d8888888888888888888888888I
+  8888888888888888888888888888888888888888888baaad888888888888888888888888888'
+  Y8888888888888888888888888888888888888888888888888888888888888888888888888P
+  I888888888888888888888888888888888888888888888P^  ^Y8888888888888888888888'
+  `Y88888888888888888P88888888888888888888888888'     ^88888888888888888888I
+   `Y8888888888888888 `8888888888888888888888888       8888888888888888888P'
+    `Y888888888888888  `888888888888888888888888,     ,888888888888888888P'
+     `Y88888888888888b  `88888888888888888888888I     I888888888888888888'
+       "Y8888888888888b  `8888888888888888888888I     I88888888888888888'
+         "Y88888888888P   `888888888888888888888b     d8888888888888888'
+            ^""""""""^     `Y88888888888888888888,    888888888888888P'
+                             "8888888888888888888b,   Y888888888888P^
+                              `Y888888888888888888b   `Y8888888P"^
+                                "Y8888888888888888P     `""""^
+                                  `"YY88888888888P'
+                                       ^""""""""'
+</pre>
+
+ <script>
+const themeBtn = document.getElementById('themeBtn')
+const body = document.getElementsByTagName('body')[0]
+
+window.matchMedia('prefers-color-scheme: dark').matches ?
+  body.classList.add('light') :
+  body.classList.add('dark');
+
+
+themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+themeBtn.addEventListener("click", () => {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
+  } else {
+    body.classList.remove('light')
+    body.classList.add('dark')
+  }
+
+  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+})
+
+</script>
