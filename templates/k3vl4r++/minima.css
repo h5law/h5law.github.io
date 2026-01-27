@@ -2,6 +2,7 @@
   --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   --font-serif: Georgia, Times new roman;
   --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+  --font-size: 14px;
 }
 
 body.dark {
@@ -23,7 +24,7 @@ body.light {
 * {
   margin: 0;
   padding: 0;
-} 
+}
 
 body {
   background: var(--clr-bg);
