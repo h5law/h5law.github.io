@@ -1,0 +1,7 @@
+[START][2026-01-27 08:07:42] LSP logging initiated
+[ERROR][2026-01-27 08:07:42] .../lua/vim/lsp.lua:496	"cannot start gopls due to config error: /usr/share/nvim/runtime/lua/vim/lsp.lua:485: cmd: expected expected function or table with executable command, got table: 0x7fa316626288. Info: gopls is not executable"
+[ERROR][2026-01-27 08:07:48] .../lua/vim/lsp.lua:496	"cannot start gopls due to config error: /usr/share/nvim/runtime/lua/vim/lsp.lua:485: cmd: expected expected function or table with executable command, got table: 0x7fa316626288. Info: gopls is not executable"
+[START][2026-01-27 08:09:59] LSP logging initiated
+[ERROR][2026-01-27 08:09:59] .../lua/vim/lsp.lua:496	"cannot start gopls due to config error: /usr/share/nvim/runtime/lua/vim/lsp.lua:485: cmd: expected expected function or table with executable command, got table: 0x7fd8d5ba7c90. Info: gopls is not executable"
+[START][2026-01-27 08:10:45] LSP logging initiated
+[ERROR][2026-01-27 08:10:45] .../lua/vim/lsp.lua:496	"cannot start gopls due to config error: /usr/share/nvim/runtime/lua/vim/lsp.lua:485: cmd: expected expected function or table with executable command, got table: 0x7f38b2b9def0. Info: gopls is not executable"

@@ -119,12 +119,12 @@ nav.navbar {
   width: 100%;
   font-family: var(--font-serif);
   margin-block: .5rem;
-  font-size: 1.25rem;
 }
 
 .list__itm a {
   color: var(--clr-text);
   text-decoration: none;
+  font-size: 1.4rem;
 }
 
 
