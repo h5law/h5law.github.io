@@ -2,7 +2,6 @@
   --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   --font-serif: Georgia, Times new roman;
   --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
-  --font-size: 14px;
 }
 
 body.dark {
@@ -120,6 +119,7 @@ nav.navbar {
   width: 100%;
   font-family: var(--font-serif);
   margin-block: .5rem;
+  font-size: 1.25rem;
 }
 
 .list__itm a {
