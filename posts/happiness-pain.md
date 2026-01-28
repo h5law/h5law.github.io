@@ -11,11 +11,11 @@ Happiness, if it exists at all, does not seem to wait at the end of the road.
 It walks beside us, often disguised as struggle.
 
 Happiness is often elusive; we can grasp it for moments, but it is gone the
-next.We are in an eternal struggle to catch the next fix of happiness allotted
-to us.In the meantime, we suffer, we struggle, we are in pain - the opposite of
-happiness, but without these, there could be no such thing as happiness. If we
-hadnever felt sad, pain, sorrow, we wouldn't even understand what happiness is
-in the slightest.
+next. We are in an eternal struggle to catch the next fix of happiness allotted
+to us. In the meantime, we suffer, we struggle, we are in pain - the opposite
+of happiness, but without these, there could be no such thing as happiness. If
+we had never felt sad, pain, sorrow, we wouldn't even understand what happiness
+is in the slightest.
 
 Life offers no clear instructions. There is no visible blueprint explaining why
 we suffer, fail, or lose what we love. We want meaning, but the world does not
