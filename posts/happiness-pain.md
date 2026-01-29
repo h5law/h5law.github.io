@@ -10,12 +10,25 @@ the question—*what is happiness?*—the less convincing that idea becomes.
 Happiness, if it exists at all, does not seem to wait at the end of the road.
 It walks beside us, often disguised as struggle.
 
-Happiness is often elusive; we can grasp it for moments, but it is gone the
-next. We are in an eternal struggle to catch the next fix of happiness allotted
-to us. In the meantime, we suffer, we struggle, we are in pain - the opposite
-of happiness, but without these, there could be no such thing as happiness. If
-we had never felt sad, pain, sorrow, we wouldn't even understand what happiness
-is in the slightest.
+The happiness we think of is often elusive; we can grasp it for a, or moments,
+but it is gone the just as quick as we got ahold of it. We are in an eternal
+struggle to catch the next fix of happiness allotted to us. This struggle for
+happiness is in our human nature, we crave it - long for it. But is it anything
+more than an intense battle with struggle. A struggle with no permenant end.
+
+In the meantime, of searching for happiness we suffer, we struggle, we are in
+pain - the opposite of happiness, but without these feelings, there could be no
+such thing as happiness. If we had never felt sad, pain, sorrow, we couldn't
+even comprehend what happiness is in the slightest. But because we do there is
+a chance for us. A chance for happiness.
+
+But perhaps this happiness that we all chase is really a culmination of the pain
+that brought us there. A respite of sorts, the pain, sorrow, etc. doesn't just
+disappear but instead is masked by something more tolerable, something we put up
+with even in the face of our immense weight we carry.
+
+Happiness itself is absurd in essence, it's just an emotion but one with so much
+meaning. Why do we suffer for its sake, why go through pain for it too?
 
 Life offers no clear instructions. There is no visible blueprint explaining why
 we suffer, fail, or lose what we love. We want meaning, but the world does not
@@ -59,5 +72,4 @@ honestly.
 
 And maybe that is enough.
 
-
-- h5law
+---

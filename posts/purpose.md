@@ -15,5 +15,4 @@ the person in respect's future. If you cannot see yourself having a future,
 whether it be the one you dreamed of, the one you envisiged or one at all. Then
 you are at the mercy of "purpose".
 
-
-- h5law
+---
