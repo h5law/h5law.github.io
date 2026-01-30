@@ -11,7 +11,7 @@ Happiness, if it exists at all, does not seem to wait at the end of the road.
 It walks beside us, often disguised as struggle.
 
 The happiness we think of is often elusive; we can grasp it for a, or moments,
-but it is gone the just as quick as we got ahold of it. We are in an eternal
+but it is gone just as quick as we got ahold of it. We are in an eternal
 struggle to catch the next fix of happiness allotted to us. This struggle for
 happiness is in our human nature, we crave it - long for it. But is it anything
 more than an intense battle with struggle. A struggle with no permenant end.
