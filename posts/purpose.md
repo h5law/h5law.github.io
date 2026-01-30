@@ -1,8 +1,8 @@
-Title=Purpose and Existence
+Title=Purpose
 Date=2026-01-29 04:13:52
 Order=1
 
-## On Purpose [DRAFT]
+## Purpose [DRAFT]
 
 Purpose is an elusive thing. Some wake up full of vigor ready for the day ahead
 with clear goals and intentions, with purpose. Others, however, wake up and lie

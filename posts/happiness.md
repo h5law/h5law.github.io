@@ -1,8 +1,8 @@
-Title=On Happiness
+Title=Happiness
 Date=2026-01-26 21:11:24
 Order=0
 
-## On Happiness
+## Happiness
 
 I used to think happiness was something you reached. A moment where things
 finally made sense, where effort softened into ease. But the longer I sit with
