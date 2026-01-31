@@ -38,6 +38,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body.light {
+  color: black;
+}
+
+body.dark {
+  color: white;
+}
+
+.rss {
+  display: block;
+}
+
+body.light .rss {
+  color: black;
+}
+
+body.dark .rss {
+  color: white;
+}
+
+.rss path {
+  fill: currentColor;
+}
+
 p {
   line-height: 1.4;
   margin-block: 1rem;
