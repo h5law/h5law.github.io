@@ -6,7 +6,7 @@ Order=0
 
 I used to think happiness was something you reached. A moment where things
 finally made sense, where effort softened into ease. But the longer I sit with
-the question—*what is happiness?*—the less convincing that idea becomes.
+the question-*what is happiness?*-the less convincing that idea becomes.
 Happiness, if it exists at all, does not seem to wait at the end of the road.
 It walks beside us, often disguised as struggle.
 
