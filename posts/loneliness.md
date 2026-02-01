@@ -35,4 +35,11 @@ mentioned. It can be a relationship, friendship or a friendly acquantance you
 play with regularly. But the importance is connection. It frees us, and gives
 us a chance at a life not alone and isn't this what grace is?
 
+Just as the ache of loneliness and solitude can sharpen us as help us get to
+know our real selves. So too can a true connection. It also can act as a mirror
+and expose the real versions of ourselves the ones outside of our heads. We get
+to know the person outside the mask we have built and the walls we have hid
+behind. A true connection can destroy those walls and remove that mask and help
+us see who we really are.
+
 ---
