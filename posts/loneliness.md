@@ -40,6 +40,8 @@ know our real selves. So too can a true connection. It also can act as a mirror
 and expose the real versions of ourselves the ones outside of our heads. We get
 to know the person outside the mask we have built and the walls we have hid
 behind. A true connection can destroy those walls and remove that mask and help
-us see who we really are.
+us see who we really are. They can help us even evolve who we are into someone
+new, someone not alone, someone confident and friendly, someone we always
+wanted to be.
 
 ---
