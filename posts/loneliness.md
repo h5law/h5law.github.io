@@ -31,7 +31,7 @@ finally meets yours, even briefly, it feels less like chance and more like
 grace.
 
 The connection with another can free us from all these evils previously
-mentioned. It can be a relationship, friendship or a friendly acquantance you
+mentioned. It can be a relationship, friendship or a friendly acquaintance you
 play with regularly. But the importance is connection. It frees us, and gives
 us a chance at a life not alone and isn't this what grace is?
 
