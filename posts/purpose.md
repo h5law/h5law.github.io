@@ -38,8 +38,8 @@ reinterpreting the present-is to loosen the grip of purpose over one’s worth. 
 this sense, purpose becomes less of a demand and more of a byproduct of
 endurance.
 
-Perhaps the task, then, is not to ask *“What is my purpose?”* but *“Can I
-imagine myself still here?”* If the answer is even faintly yes, purpose may
+Perhaps the task, then, is not to ask “What is my purpose?” but “Can I
+imagine myself still here?” If the answer is even faintly yes, purpose may
 follow on its own, quietly and without ceremony. And if it does not, that may be
 acceptable too. After all, to exist without a clear purpose is not a failure of
 life-it may simply be life before it has finished explaining itself.
