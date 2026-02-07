@@ -4,13 +4,12 @@ Order=5
 
 ## Absurd
 
-**‘Of a thing: against or without reason or propriety; incongruous,
-unreasonable, illogical’.** We all have causes which seem absurd; whether they
-be belief in the unknown; trust in what cannot be seen; irrational fears;
-unreasonable and illogical ideas and conceptions as well as a fear of the
-unknown. I put the latter in as we are naturally inclined to fear what we don't
-know or understand. This fear although completely real when felt is utterly
-absurd.
+**‘Of a thing: against or without reason or propriety; incongruous, unreasonable, illogical’.**
+We all have causes which seem absurd; whether they be belief in the unknown;
+trust in what cannot be seen; irrational fears; unreasonable and illogical ideas
+and conceptions as well as a fear of the unknown. I put the latter in as we are
+naturally inclined to fear what we don't know or understand. This fear although
+completely real when felt is utterly absurd.
 
 Absurdity, then, is not merely a flaw in logic or a failure of reason; it is a
 fundamental condition of human experience. We are creatures who seek meaning in
