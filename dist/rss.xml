@@ -7,7 +7,7 @@
 <atom:link href="https://h5law.com/rss.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>Happiness</title>
-<link>https://h5law.com/happiness.md</link>
+<link>https://h5law.com/happiness.html</link>
 <pubDate>Mon, 26 Jan 2026 21:11:24 GMT</pubDate>
 <description>Exploring a philosophic topic based on the title 'Happiness'</description>
 <content>
@@ -96,11 +96,11 @@ And maybe that is enough.
 
 ---
 </content>
-<guid>https://h5law.com/happiness.md</guid>
+<guid>https://h5law.com/happiness.html</guid>
 </item>
 <item>
 <title>Loneliness</title>
-<link>https://h5law.com/loneliness.md</link>
+<link>https://h5law.com/loneliness.html</link>
 <pubDate>Sun, 01 Feb 2026 14:21:43 GMT</pubDate>
 <description>Exploring a philosophic topic based on the title 'Loneliness'</description>
 <content>
@@ -156,11 +156,11 @@ wanted to be.
 
 ---
 </content>
-<guid>https://h5law.com/loneliness.md</guid>
+<guid>https://h5law.com/loneliness.html</guid>
 </item>
 <item>
 <title>Lost</title>
-<link>https://h5law.com/lost.md</link>
+<link>https://h5law.com/lost.html</link>
 <pubDate>Fri, 30 Jan 2026 20:29:45 GMT</pubDate>
 <description>Exploring a philosophic topic based on the title 'Lost'</description>
 <content>
@@ -185,11 +185,11 @@ the richness of what I do - a life unfolding, imperfect and alive.
 
 ---
 </content>
-<guid>https://h5law.com/lost.md</guid>
+<guid>https://h5law.com/lost.html</guid>
 </item>
 <item>
 <title>Purpose</title>
-<link>https://h5law.com/purpose.md</link>
+<link>https://h5law.com/purpose.html</link>
 <pubDate>Thu, 29 Jan 2026 04:13:52 GMT</pubDate>
 <description>Exploring a philosophic topic based on the title 'Purpose'</description>
 <content>
@@ -245,11 +245,11 @@ life-it may simply be life before it has finished explaining itself.
 
 ---
 </content>
-<guid>https://h5law.com/purpose.md</guid>
+<guid>https://h5law.com/purpose.html</guid>
 </item>
 <item>
 <title>Absurd</title>
-<link>https://h5law.com/absurd.md</link>
+<link>https://h5law.com/absurd.html</link>
 <pubDate>Sat, 07 Feb 2026 16:45:38 GMT</pubDate>
 <description>Exploring a philosophic topic based on the title 'Absurd'</description>
 <content>
@@ -327,7 +327,7 @@ even embraced. For in acknowledging the absurd, we confront the limits of reaso
 n
 and, paradoxically, come closer to understanding ourselves.
 </content>
-<guid>https://h5law.com/absurd.md</guid>
+<guid>https://h5law.com/absurd.html</guid>
 </item>
 </channel>
 </rss>
