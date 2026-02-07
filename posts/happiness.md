@@ -14,7 +14,7 @@ The happiness we think of is often elusive; we can grasp it for a, or moments,
 but it is gone just as quick as we got ahold of it. We are in an eternal
 struggle to catch the next fix of happiness allotted to us. This struggle for
 happiness is in our human nature, we crave it - long for it. But is it anything
-more than an intense battle with struggle. A struggle with no permenant end.
+more than an intense battle with struggle. A struggle with no permanent end.
 
 In the meantime, of searching for happiness we suffer, we struggle, we are in
 pain - the opposite of happiness, but without these feelings, there could be no
@@ -54,15 +54,15 @@ cannot be reduced to comfort without losing something essential.
 I’ve come to think that happiness is less about what happens to us and more
 about how we respond. Do we shrink from difficulty, or do we let it shape us? Do
 we resent the weight we carry, or do we claim it as ours? There is a subtle joy
-in realizing that even when circumstances are unfair or absurd, our response
+in realising that even when circumstances are unfair or absurd, our response
 still belongs to us.
 
 This doesn’t mean forcing optimism onto a broken situation. It means clarity.
 Seeing the world as it is, stripped of false promises, and choosing to live
 anyway. There is dignity in that choice. Even beauty.
 
-Perhaps happiness is not the feeling that life is easy, but the realization that
-life is *worth engaging with*—even when it hurts, even when it makes no sense.
+Perhaps happiness is not the feeling that life is easy, but the realisation that
+life is *worth engaging with* - even when it hurts, even when it makes no sense.
 It is found in effort, in persistence, in saying “yes” to existence without
 demanding that it justify itself first.
 
