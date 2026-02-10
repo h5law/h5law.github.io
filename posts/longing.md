@@ -15,8 +15,8 @@ A terrible longing seized him - a pull so strong he nearly dropped his suitcase
 where he stood and turned back to the house he fled. That house of horrors. He
 imagined himself climbing the steps again, offering apologies he had already
 given, staying for the sake of duty rather than love. Was it cowardice to leave?
-Or selfishness? The thought of his children sleeping under that roof pierced him
-- their small hands once wrapped around his, their laughter once meant for him.
+Or selfishness? The thought of his children sleeping under that roof pierced him -
+their small hands once wrapped around his, their laughter once meant for him.
 He wondered if abandoning them now would forever brand him a failure of a man.
 
 The weight of that guilt nearly crushed him.
