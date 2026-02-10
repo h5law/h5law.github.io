@@ -58,6 +58,8 @@ frees us from the exhausting pursuit of perfect sense.
 
 In the end, absurdity is unavoidable. It is woven into our thinking, our
 emotions, and our attempts to understand a world that does not owe us clarity.
-Rather than something to be eradicated, it may be something to be recognized—and
+Rather than something to be eradicated, it may be something to be recognised—and
 even embraced. For in acknowledging the absurd, we confront the limits of reason
 and, paradoxically, come closer to understanding ourselves.
+
+---
