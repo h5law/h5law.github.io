@@ -5,7 +5,7 @@ Order=7
 ## Longing
 
 He took the steps down from his porch almost eagerly, though his face wore an
-air of practiced compassion. For he was leaving his old life behind to begin
+air of practised compassion. For he was leaving his old life behind to begin
 anew. His wife detested him, his children were indifferent to his presence, and
 he could no longer bear the quiet cruelty of it all.
 
@@ -34,7 +34,7 @@ possibility of a future not yet ruined. He understood then that staying would
 not heal what was broken - it would only teach them all how to endure misery in
 silence.
 
-With that realization, he took another step. Then another. And another.
+With that realisation, he took another step. Then another. And another.
 
 Soon he was beyond his property, walking steadily toward the train station, the
 weight of his past finally shifting behind him.
