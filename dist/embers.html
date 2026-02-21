@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title> SEG/FAULT </title>
+  <style>
+:root {
+  --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  --font-serif: Georgia, Times new roman;
+  --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+}
+
+body.dark {
+  --clr-text: #e7e5e4;
+  --clr-bg: #1c1917;
+  --clr-hr: #292524;
+  --clr-mono: white;
+  --clr-pre: #292524;
+}
+
+body.light {
+  --clr-text: #1c1917;
+  --clr-mono: black;
+  --clr-bg: #e7e5e4;
+  --clr-hr: #a8a29e;
+  --clr-pre: #d4d4d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body.light {
+  color: black;
+}
+
+body.dark {
+  color: white;
+}
+
+.rss {
+  display: block;
+}
+
+body.light .rss {
+  color: black;
+}
+
+body.dark .rss {
+  color: white;
+}
+
+.post-signature {
+  display: block;
+}
+
+body.light .post-signature {
+  color: black;
+}
+
+body.dark .post-signature {
+  color: white;
+}
+
+.rss path {
+  fill: currentColor;
+}
+
+p {
+  line-height: 1.4;
+  margin-block: 1rem;
+}
+
+ul:not(.listing),ol {
+  margin-left: 1rem;
+}
+
+ul li:not(.list_itm), ol {
+  margin-block: .5rem;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--clr-pre);
+  padding-inline: .5rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3 {
+  margin-block: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--clr-hr);
+  margin-bottom: 1rem;
+}
+
+.nav__logo {
+  color: var(--clr-mono);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.nav__links a {
+  color: inherit;
+}
+
+.theme-btn {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  text-decoration: underline;
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.list__itm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-serif);
+  margin-block: .5rem;
+}
+
+.list__itm a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+
+.list__itm time {
+  font-size: .95rem;
+  position: relative;
+}
+
+.list__hr {
+  flex: 1;
+  margin-inline: 0.5rem;
+  height: 1px;
+  border-top: var(--clr-hr) dotted 1px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+
+  .listing {
+    gap: 1.25rem;
+  }
+
+  .list__itm {
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+
+  .list__hr {
+    display: none;
+  }
+}
+</style>
+ 
+</head>
+
+<nav class="navbar">
+  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
+  <a href="feed.xml" target="blank" class="nav__links">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss rss" viewBox="0 0 16 16">
+    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1"/>
+  </svg>
+  </a>
+  <ul class="nav__links">
+    <a href=" https://github.com/h5law ">GitHub</a>
+    <a href=" https://schizofriendly.medium.com ">Medium</a>
+    <a href=" https://schizofriendly.substack.com ">Substack</a>
+    <button id="themeBtn" class="theme-btn"></button>
+  </ul>
+</nav>
+
+ <h2>Embers Beneath the Ash</h2>
+<p>Tribold settled onto the moss-soft earth beneath the ancient willow, his weathered robes pooling around him like fallen leaves. The old druid - wrinkled, silver-bearded, steeped for decades in the scriptures of the Old Faith - closed his eyes and let the quiet seep in.</p>
+<p>He had always believed, fiercely, in the sacred balance: the harmony that must exist between the earth's children and the wild pulse of the world itself. Every day he meditated, sometimes four hours without stirring, breathing with the wind, listening to the slow heartbeat of root and river. Yet doubt clung to him like damp fog.</p>
+<p>All my life I've worn the druid's mantle, he thought. Studied the texts, preached their truths. But if I question Beory, Obad-Hai, and Ehlonna, can I still call myself their servant?</p>
+<p>He turned each deity over in his mind. Beory, the Oerth Mother, vast and patient, the living body of the world. Obad-Hai, the Shalm, fierce guardian of untamed woodlands, of the hunter's instinct and the raw freedom of beasts. Ehlonna, gentle and bright, who blessed the fertility of groves and sheltered those who loved nature with pure hearts. Tribold cherished what they represented - the cycles of growth and decay, the interdependence of all things. Their meaning rang true in his bones.</p>
+<p>Yet the old teachings insisted these were not mere symbols. They were living powers who watched over druids, over the green world, over him. The gap between metaphor and literal presence gnawed at him. He was caught in a silent war between head and heart.</p>
+<p>With a soft sigh, Tribold rose and walked deeper into the grove to his favourite retreat: the great willow at the stream's bend, its branches trailing like green curtains. He folded himself beneath it once more, legs crossed, palms open on his knees, and let the world speak.</p>
+<p>Today, though, the silence broke.</p>
+<p>A small figure approached - hesitant footsteps on fallen leaves. A boy, perhaps eleven, barefoot and clad in the simple tunic of a novice.</p>
+<p>“Sir… if it pleases you,” the child said, voice barely above a whisper, “would you help me with something?”</p>
+<p>Tribold opened his eyes. “Of course. First, your name young one.”</p>
+<p>“Sanfew,” the boy replied, glancing down, cheeks flushing. He knew Tribold sat on the Elder Council, a figure of great authority among the druids.</p>
+<p>“What troubles you, young Sanfew?”</p>
+<p>The boy shifted. “Promise you’ll keep it between us? I don’t want to be in trouble.”</p>
+<p>“I promise.” Sanfew swallowed.</p>
+<p>“I… I struggle to believe in the gods. I love the forest - the way the light moves through leaves, the smell after rain, every creature in its place. But the leap the Elders speak of… the certainty they have… I can’t find it. Day after day I feel like a fraud among druids.” He hurried on. “I haven’t stopped studying. I won’t give up. This doubt - it only makes me want to understand more, to become a true druid. But still…”</p>
+<p>He looked up, eyes wide and searching. Tribold stroked his beard, stunned. The boy had spoken his own hidden thoughts aloud. After a long moment, he spoke gently.</p>
+<p>“Young Sanfew, faith is not a fire you must carry blazing every moment. Sometimes it is only embers, buried beneath ash, waiting for the right breath to stir them. There will be days when the gods feel impossibly distant, when the rustle of leaves speaks more clearly than any hymn or scripture. Do not force belief. Belief born of fear or guilt cracks easily. Instead, listen. Watch how the stream patiently carves stone, how the wind shapes the branches without breaking them, how life and decay dance together in endless, perfect circles. These are their voices, even if they wear no faces you can name. Walk among them. Learn from them. Let your heart find its own path to knowing. Doubt is not your enemy - it is often the very trail that leads to deeper roots.”</p>
+<p>Sanfew blinked, half-perplexed, half-soothed. He murmured thanks, bowed awkwardly, and slipped away through the willows.</p>
+<p>Tribold returned to his meditation. Hours passed - four, perhaps more - until the world softened into stillness.</p>
+<p>Then came the vision.</p>
+<p>She approached without sound or hurry: Beory, vast yet intimate, her form woven of soil and moss and starlit rivers, moving with the easy grace of the earth turning on its axis. Tribold felt no fear, only a sudden bloom of warmth that spread through his chest like sunlight after long rain.</p>
+<p>She looked upon him with ancient, knowing eyes. And spoke a single sentence before fading back into the green:</p>
+<p>“We are with you.”</p>
+<p>The words lingered in the quiet, simple and certain. Not a command. Not an explanation. Just presence.</p>
+<p>Tribold opened his eyes to the same willow, the same stream. Nothing had changed.</p>
+<p>And yet everything had.</p>
+</p>
+<hr />
+ 
+
+<div>
+    <img src="sig.png"
+         style="display:block; margin: 0 auto; max-width:100%; height:auto;">
+</div>
+
+ <script>
+const themeBtn = document.getElementById('themeBtn')
+const body = document.getElementsByTagName('body')[0]
+
+window.matchMedia('prefers-color-scheme: dark').matches ?
+  body.classList.add('light') :
+  body.classList.add('dark');
+
+themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+themeBtn.addEventListener("click", () => {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
+  } else {
+    body.classList.remove('light')
+    body.classList.add('dark')
+  }
+
+  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+})
+</script>
+ 
