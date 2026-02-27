@@ -50,7 +50,7 @@ He studies his reflection
 like a stranger left behind.
 
 
-“Self medicating; I just want to be numb”
+“I just want to be numb”
 
 
 The words fall heavy,
