@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title> SEG/FAULT </title>
+  <style>
+:root {
+  --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  --font-serif: Georgia, Times new roman;
+  --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+}
+
+body.dark {
+  --clr-text: #e7e5e4;
+  --clr-bg: #1c1917;
+  --clr-hr: #292524;
+  --clr-mono: white;
+  --clr-pre: #292524;
+}
+
+body.light {
+  --clr-text: #1c1917;
+  --clr-mono: black;
+  --clr-bg: #e7e5e4;
+  --clr-hr: #a8a29e;
+  --clr-pre: #d4d4d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body.light {
+  color: black;
+}
+
+body.dark {
+  color: white;
+}
+
+.rss {
+  display: block;
+}
+
+body.light .rss {
+  color: black;
+}
+
+body.dark .rss {
+  color: white;
+}
+
+.post-signature {
+  display: block;
+}
+
+body.light .post-signature {
+  color: black;
+}
+
+body.dark .post-signature {
+  color: white;
+}
+
+.rss path {
+  fill: currentColor;
+}
+
+p {
+  line-height: 1.4;
+  margin-block: 1rem;
+}
+
+ul:not(.listing),ol {
+  margin-left: 1rem;
+}
+
+ul li:not(.list_itm), ol {
+  margin-block: .5rem;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--clr-pre);
+  padding-inline: .5rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3 {
+  margin-block: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--clr-hr);
+  margin-bottom: 1rem;
+}
+
+.nav__logo {
+  color: var(--clr-mono);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.nav__links a {
+  color: inherit;
+}
+
+.theme-btn {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  text-decoration: underline;
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.list__itm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-serif);
+  margin-block: .5rem;
+}
+
+.list__itm a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+
+.list__itm time {
+  font-size: .95rem;
+  position: relative;
+}
+
+.list__hr {
+  flex: 1;
+  margin-inline: 0.5rem;
+  height: 1px;
+  border-top: var(--clr-hr) dotted 1px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+
+  .listing {
+    gap: 1.25rem;
+  }
+
+  .list__itm {
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+
+  .list__hr {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<nav class="navbar">
+  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
+  <a href="feed.xml" target="blank" class="nav__links">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss rss" viewBox="0 0 16 16">
+    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1"/>
+  </svg>
+  </a>
+  <ul class="nav__links">
+    <a href=" https://github.com/h5law ">GitHub</a>
+    <a href=" https://schizofriendly.medium.com ">Medium</a>
+    <a href=" https://schizofriendly.substack.com ">Substack</a>
+    <button id="themeBtn" class="theme-btn"></button>
+  </ul>
+</nav>
+
+ <h2>Cocaine</h2>
+<p>The fluorescent lights hummed like tired insects above Arthur’s head. He stood behind the till, scanning items he could not afford in a shop that sold things nobody needed. Plastic tat, brittle greetings cards, batteries that would outlive their owners. The carpet was a tired brown, the walls a resigned beige. Even the air seemed reluctant to move.</p>
+<p>Arthur moved with it. Or rather, did not move. He existed. A grey figure in a dim world, clocking in, clocking out, stacking shelves with the reverence of a man arranging his own mausoleum.</p>
+<p>He had once harboured ambitions. They had thinned like the carpet and dulled like the walls. Now there was only the menial rhythm of the barcode scanner and the private refrain in his head that life, in its grand design, had misplaced him.</p>
+<p>It was during the stacking of discounted biscuits that the portal appeared.</p>
+<p>No fanfare. No thunderclap. Just a circular tear in the air beside the digestive section. It shimmered faintly, as if embarrassed to be noticed.</p>
+<p>Arthur stared.</p>
+<p>A customer coughed pointedly.</p>
+<p>The portal remained.</p>
+<p>Arthur blinked once, twice. He glanced at the CCTV camera, at the door, at his own hands. What else was he going to do? File a complaint? Finish the shift?</p>
+<p>After the initial shock passed like mild indigestion, he stepped through.</p>
+<p>The hum vanished.</p>
+<p>Light met him first. Not the sickly fluorescence of retail misery, but sunlight that seemed freshly invented. He found himself on a pavement in a suburban estate. Lawns were trimmed with surgical precision. Houses gleamed in soft pastels. The sky was a confident blue.</p>
+<p>People passed him smiling. Not the tight, polite smiles of obligation, but wide, toothy, almost evangelical grins.</p>
+<p>A jogger in neon shorts slowed as he approached, bouncing with enviable enthusiasm.</p>
+<p>“Excuse me,” Arthur said, his voice as flat as his former sky. “Why is everyone so happy?”</p>
+<p>The jogger laughed, a bright peal that sounded rehearsed. “Cocaine, silly,” he said jovially, and continued on his way without breaking stride.</p>
+<p>Arthur watched him go... Cocaine.</p>
+<p>He looked down at himself. His suit was the same dreary grey. His shoes still scuffed. He felt like a smudge on a painting that refused to admit it had ever known darkness.</p>
+<p>He walked through the town. Children skipped. Couples held hands with cinematic devotion. An elderly woman watered flowers with a grin that bordered on religious experience. The world pulsed with colour, and Arthur felt like a charcoal sketch dropped in by mistake.</p>
+<p>Then he saw it.</p>
+<p>A storefront with a cheerful yellow awning. In bold, looping letters across the glass:</p>
+<p>Happiness Sold Here.</p>
+<p>Arthur stopped. Of course it was.</p>
+<p>He entered.</p>
+<p>Inside, shelves stretched from floor to ceiling. White bottles, neat rows, pristine labels. The air smelt faintly medicinal, faintly sweet. Behind the counter stood a clerk whose smile seemed physically taxing to maintain.</p>
+<p>“Looking for a brighter day?” the clerk asked.</p>
+<p>Arthur surveyed the merchandise. There was no disguise. No euphemism. Simply cocaine in pill form, everywhere. Bottled bliss. Compressed euphoria.</p>
+<p>“I suppose,” Arthur muttered.</p>
+<p>“First time?” the clerk asked.</p>
+<p>Arthur nodded.</p>
+<p>He purchased a carton. The transaction was brisk, efficient, devoid of judgement. Outside, the town shimmered in its chemically enhanced harmony.</p>
+<p>He opened the carton with trembling fingers. A small white pill lay in his palm. So simple. So unassuming.</p>
+<p>“Life fucking sucks,” he said quietly, more out of habit than conviction.</p>
+<p>He swallowed the pill.</p>
+<p>The effect was not gradual. It was revelation. The grey peeled away from his perception like old wallpaper. His suit brightened, threads flushing into a sharp, luminous blue. His shoulders straightened. The air itself seemed to applaud his lungs.</p>
+<p>His mind, once a stagnant pond, became a rushing river of possibility.</p>
+<p>He looked up at the perfect suburban sky and smiled, a genuine, stretching, almost painful smile.</p>
+<p>“This decomposing problem a parody of a problem once grand,” he uttered, words spilling with sudden poetic clarity.</p>
+<p>The lawns were not oppressive. They were orderly. The smiles were not manic. They were contagious. The world had not been cruel. It had merely required adjustment.</p>
+<p>Arthur laughed.</p>
+<p>He stepped from the pavement into the stream of townsfolk. Someone clapped him on the back. Another pressed a fresh bottle into his hand. Music seemed to rise from nowhere and everywhere.</p>
+<p>The grey man dissolved into colour.</p>
+<p>And somewhere, in a dim shop beneath humming lights, a space beside the digestive biscuits remained conspicuously empty.</p>
+</p>
+<hr />
+
+<div>
+    <img src="sig.png"
+         style="display:block; margin: 0 auto; max-width:100%; height:auto;">
+</div>
+
+ <script>
+const themeBtn = document.getElementById('themeBtn')
+const body = document.getElementsByTagName('body')[0]
+
+window.matchMedia('prefers-color-scheme: dark').matches ?
+  body.classList.add('light') :
+  body.classList.add('dark');
+
+themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+themeBtn.addEventListener("click", () => {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
+  } else {
+    body.classList.remove('light')
+    body.classList.add('dark')
+  }
+
+  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+})
+</script>
+
