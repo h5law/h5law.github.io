@@ -12,7 +12,7 @@ gravity choosing him
 
 for its private experiment.
 
-
+<br \>
 
 Once, he was lightning -
 
@@ -22,10 +22,11 @@ heart outrunning his body,
 
 building empires before sunrise.
 
-
+<br \>
 
 Now he is ash.
 
+<br \>
 
 The clock ticks like a hammer.
 
@@ -35,6 +36,7 @@ Morning presses at the curtains
 
 but cannot reach him.
 
+<br \>
 
 He is tired of the altitude of mania,
 
@@ -44,14 +46,17 @@ the sky opening beneath him
 
 instead of above.
 
+<br \>
 
 He studies his reflection
 
 like a stranger left behind.
 
+<br \>
 
 “I just want to be numb”
 
+<br \>
 
 The words fall heavy,
 
@@ -65,6 +70,7 @@ He just wants quiet -
 
 a stillness without teeth.
 
+<br \>
 
 Somewhere, deep beneath
 
@@ -72,13 +78,17 @@ the wreckage of extremes,
 
 a small pulse insists:
 
+<br \>
 
 stay.
 
+<br \>
 
 Not loudly.
 
 Not brightly.
+
+<br \>
 
 Just -
 
