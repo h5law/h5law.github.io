@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title> SEG/FAULT </title>
+  <style>
+:root {
+  --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  --font-serif: Georgia, Times new roman;
+  --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+}
+
+body.dark {
+  --clr-text: #e7e5e4;
+  --clr-bg: #1c1917;
+  --clr-hr: #292524;
+  --clr-mono: white;
+  --clr-pre: #292524;
+}
+
+body.light {
+  --clr-text: #1c1917;
+  --clr-mono: black;
+  --clr-bg: #e7e5e4;
+  --clr-hr: #a8a29e;
+  --clr-pre: #d4d4d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body.light {
+  color: black;
+}
+
+body.dark {
+  color: white;
+}
+
+.rss {
+  display: block;
+}
+
+body.light .rss {
+  color: black;
+}
+
+body.dark .rss {
+  color: white;
+}
+
+.post-signature {
+  display: block;
+}
+
+body.light .post-signature {
+  color: black;
+}
+
+body.dark .post-signature {
+  color: white;
+}
+
+.rss path {
+  fill: currentColor;
+}
+
+p {
+  line-height: 1.4;
+  margin-block: 1rem;
+}
+
+ul:not(.listing),ol {
+  margin-left: 1rem;
+}
+
+ul li:not(.list_itm), ol {
+  margin-block: .5rem;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--clr-pre);
+  padding-inline: .5rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3 {
+  margin-block: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--clr-hr);
+  margin-bottom: 1rem;
+}
+
+.nav__logo {
+  color: var(--clr-mono);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.nav__links a {
+  color: inherit;
+}
+
+.theme-btn {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  text-decoration: underline;
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.list__itm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-serif);
+  margin-block: .5rem;
+}
+
+.list__itm a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+
+.list__itm time {
+  font-size: .95rem;
+  position: relative;
+}
+
+.list__hr {
+  flex: 1;
+  margin-inline: 0.5rem;
+  height: 1px;
+  border-top: var(--clr-hr) dotted 1px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+
+  .listing {
+    gap: 1.25rem;
+  }
+
+  .list__itm {
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+
+  .list__hr {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<nav class="navbar">
+  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
+  <a href="feed.xml" target="blank" class="nav__links">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss rss" viewBox="0 0 16 16">
+    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1"/>
+  </svg>
+  </a>
+  <ul class="nav__links">
+    <a href=" https://github.com/h5law ">GitHub</a>
+    <a href=" https://schizofriendly.substack.com ">Substack</a>
+    <button id="themeBtn" class="theme-btn"></button>
+  </ul>
+</nav>
+
+ <h2>The One That Got Away</h2>
+<p>The rain had begun its soft tapping against the window - the kind that made the world feel smaller, closer, as though everything outside had agreed to hush. “Come here, love,” the grandmother said, patting the worn arm of her chair. “It’s a night for stories.” The granddaughter curled beside her, wrapped in a blanket that smelled faintly of lavender and years gone by. “Tell me something true,” she whispered.</p>
+<p>The old woman smiled - not wide, but deep. “Then I shall tell you about my first love.”</p>
+<p>"He was not remarkable, not in the way stories like to pretend. No grand entrance, no orchestra swelling behind him. Just a boy with ink on his fingers and a habit of looking at the sky as though it owed him answers."</p>
+<p>“I met him in spring,” she said. “Everything was beginning, and so were we.” They walked together along narrow lanes bordered with hedges just beginning to bloom. He spoke of books, of stars, of places he had never seen but swore he would. She listened - and somewhere between his words and the wind, she began to feel as though the world had opened a secret door just for her. It was not love that arrived all at once. It came quietly - like light slipping through curtains - like the warmth of tea held between cold hands.</p>
+<p>She learned the shape of his laughter before she realised she was waiting for it. She learned the rhythm of his footsteps before she noticed her own had changed to match. And one evening, beneath a sky painted in soft bruises of violet and gold, he took her hand. Nothing more. But it was everything. “I thought,” the grandmother said softly, “that such a moment must mean forever.” The granddaughter looked up. “Didn’t it?” The old woman let out a breath that carried years within it. “Ah. We always think that, don’t we?”</p>
+<p>They spoke of futures as though they were promises - careless, beautiful promises. "He would leave", he said. Travel, learn, become something larger than the place they knew. And she - she would wait, she said. Not as a burden, but as a quiet certainty. “I believed,” she continued, “that love was strong enough to stretch across distance, across time, across becoming.” But distance is not only measured in miles.</p>
+<p>Sometimes it grows in silence. In letters that arrive less often. In words that lose their warmth, their weight. Until one day, the truth arrives - not loudly, but with a kind of dreadful calm.</p>
+<p>“He wrote to me,” she said. “A short letter. No poetry. No sky. No us.” He had changed, he said. Or perhaps he had only discovered who he had always been. There were new people, new dreams - a life that did not have room for the girl who once walked beside him in spring. “He hoped I would understand.” The granddaughter frowned. “Did you?” The grandmother’s eyes drifted to the window, where the rain had softened into mist. “No,” she said gently. “But I let him go anyway.”</p>
+<p>For days - weeks - the world felt dimmer, as though someone had turned down the colour of everything.</p>
+<p>She walked the same lanes, but they no longer bloomed. She listened for laughter that did not come. She held onto memories that seemed to fade even as she reached for them. And yet, slowly - very slowly - life returned. Not as it had been, but as something quieter, steadier.</p>
+<p>“I learned,” she said, “that love does not vanish simply because it is not returned. It changes. It softens. It becomes part of you - like a scar you no longer notice until the weather shifts.” The granddaughter was silent for a long moment. “Did he ever come back?” The grandmother smiled again - that same deep, knowing smile. “No,” she said. “And that is the ending of that story.”</p>
+<p>Outside, the rain had stopped entirely now. The world beyond the glass seemed freshly washed, but the air carried a lingering chill. “Were you happy?” the girl asked. The old woman placed a hand over hers. “Yes,” she said. “Because for a little while, I knew what it was to love without holding back.” She paused, her gaze softening into something distant, something tender and unreachable. “And sometimes,” she added, almost to herself, “that is both the beginning and the end of everything.”</p>
+<p>The room fell quiet. Not empty - just full of something unspoken, something that hovered between them like the fading echo of a song. And in that silence, the granddaughter understood - not entirely, not yet - but enough to feel the shape of it.</p>
+<p>A love that bloomed. A love that was lost. A love that never quite left.</p>
+</p>
+<hr />
+
+<div>
+    <img src="sig.png"
+         style="display:block; margin: 0 auto; max-width:100%; height:auto;">
+</div>
+
+ <script>
+const themeBtn = document.getElementById('themeBtn')
+const body = document.getElementsByTagName('body')[0]
+
+window.matchMedia('prefers-color-scheme: dark').matches ?
+  body.classList.add('light') :
+  body.classList.add('dark');
+
+themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+themeBtn.addEventListener("click", () => {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
+  } else {
+    body.classList.remove('light')
+    body.classList.add('dark')
+  }
+
+  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+})
+</script>
+
