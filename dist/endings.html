@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title> SEG/FAULT </title>
+  <style>
+:root {
+  --font-sans: Helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+  --font-serif: Georgia, Times new roman;
+  --font-mono: 'Cascadia Code', 'Ubuntu Mono', 'DejaVu Sans Mono', Consolas, monospace;
+}
+
+body.dark {
+  --clr-text: #e7e5e4;
+  --clr-bg: #1c1917;
+  --clr-hr: #292524;
+  --clr-mono: white;
+  --clr-pre: #292524;
+}
+
+body.light {
+  --clr-text: #1c1917;
+  --clr-mono: black;
+  --clr-bg: #e7e5e4;
+  --clr-hr: #a8a29e;
+  --clr-pre: #d4d4d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  color: var(--clr-text);
+  width: 80%;
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body.light {
+  color: black;
+}
+
+body.dark {
+  color: white;
+}
+
+.rss {
+  display: block;
+}
+
+body.light .rss {
+  color: black;
+}
+
+body.dark .rss {
+  color: white;
+}
+
+.post-signature {
+  display: block;
+}
+
+body.light .post-signature {
+  color: black;
+}
+
+body.dark .post-signature {
+  color: white;
+}
+
+.rss path {
+  fill: currentColor;
+}
+
+p {
+  line-height: 1.4;
+  margin-block: 1rem;
+}
+
+ul:not(.listing),ol {
+  margin-left: 1rem;
+}
+
+ul li:not(.list_itm), ol {
+  margin-block: .5rem;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--clr-pre);
+  padding-inline: .5rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3 {
+  margin-block: .5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25em 0;
+  border-bottom: 1px solid var(--clr-hr);
+  margin-bottom: 1rem;
+}
+
+.nav__logo {
+  color: var(--clr-mono);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__links {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.nav__links a {
+  color: inherit;
+}
+
+.theme-btn {
+  background: none;
+  font-size: 1rem;
+  border: none;
+  text-decoration: underline;
+  color: var(--clr-text);
+  cursor: pointer;
+}
+
+.list__itm {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  font-family: var(--font-serif);
+  margin-block: .5rem;
+}
+
+.list__itm a {
+  color: var(--clr-text);
+  text-decoration: none;
+}
+
+
+.list__itm time {
+  font-size: .95rem;
+  position: relative;
+}
+
+.list__hr {
+  flex: 1;
+  margin-inline: 0.5rem;
+  height: 1px;
+  border-top: var(--clr-hr) dotted 1px;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+
+  .listing {
+    gap: 1.25rem;
+  }
+
+  .list__itm {
+    justify-content: normal;
+    flex-direction: column;
+  }
+
+
+  .list__hr {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<nav class="navbar">
+  <a href="index.html" class="nav__logo"> SEG/FAULT </a>
+  <a href="feed.xml" target="blank" class="nav__links">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss rss" viewBox="0 0 16 16">
+    <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+    <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1m0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1"/>
+  </svg>
+  </a>
+  <ul class="nav__links">
+    <a href=" https://github.com/h5law ">GitHub</a>
+    <a href=" https://schizofriendly.substack.com ">Substack</a>
+    <button id="themeBtn" class="theme-btn"></button>
+  </ul>
+</nav>
+
+ <h2>Endings</h2>
+<p>“Shall we end it?” I ask myself — softly,</p>
+<p>as though the words might shatter if spoken too clearly,</p>
+<p>as though the question has been waiting in the room for years,</p>
+<p>sitting politely in the corner beside the dimming light,</p>
+<p>watching me rehearse smaller thoughts instead…</p>
+<p>It feels almost romantic, I think — this quiet proposal,</p>
+<p>this delicate folding of existence into something finite,</p>
+<p>like pressing a flower between pages no one will reopen…</p>
+<p><br/></p>
+<p>Myself does not answer at once —</p>
+<p>it studies me with a distant, peculiar patience,</p>
+<p>like a portrait that has grown tired of being observed,</p>
+<p>head tilted at that unsettling angle</p>
+<p>where sympathy and indifference blur into one expression…</p>
+<p>“Endings are beautiful,” it says at last, almost fondly,</p>
+<p>“they have a way of resolving things — of smoothing</p>
+<p>all the jagged edges into something almost deliberate…</p>
+<p>like the final line of a poem you never quite understood…”</p>
+<p><br/></p>
+<p>“But they are final,” I reply,</p>
+<p>and the word lingers — heavy, unyielding,</p>
+<p>like a door that will not be opened again,</p>
+<p>like a silence that refuses to be interrupted…</p>
+<p>I think of all the unfinished fragments scattered through me —</p>
+<p>sentences abandoned halfway through their meaning,</p>
+<p>moments that never decided what they were becoming,</p>
+<p>a life composed mostly of beginnings that forgot their endings…</p>
+<p><br/></p>
+<p>“Finality is a kindness,” myself insists — gently now,</p>
+<p>as though trying not to startle something already breaking…</p>
+<p>“No more mornings arriving without permission,</p>
+<p>no more conversations that circle themselves into exhaustion,</p>
+<p>no more pretending the weight of it all is temporary…</p>
+<p>You could rest, you know… properly rest…</p>
+<p>not this drifting, restless imitation you’ve perfected…”</p>
+<p><br/></p>
+<p>Outside, the world continues with absurd devotion —</p>
+<p>a pigeon arguing with an invisible adversary,</p>
+<p>the sky repeating its dull performance of grey,</p>
+<p>as though it has forgotten other colours ever existed…</p>
+<p>Somewhere, a bus arrives precisely on time</p>
+<p>for no one at all, its doors opening to an empty pavement,</p>
+<p>as if fulfilling an obligation neither it nor the world remembers…</p>
+<p>It all carries on — meticulously, pointlessly —</p>
+<p>and I cannot decide whether that is comforting or cruel…</p>
+<p><br/></p>
+<p>“And what of the unfinished?” I ask,</p>
+<p>my voice quieter now — almost reluctant…</p>
+<p>“The half-read books stacked like quiet accusations,</p>
+<p>the words that hovered at the edge of being spoken,</p>
+<p>the versions of me that never quite arrived…</p>
+<p>Do they simply vanish, or do they linger somewhere,</p>
+<p>waiting for a conclusion that will never come…”</p>
+<p><br/></p>
+<p>Myself shrugs — slow, indifferent, devastating…</p>
+<p>“Loose ends are honest,” it says.</p>
+<p>“They reveal the truth — that nothing was ever whole,</p>
+<p>that coherence was only ever a rumour you believed in…</p>
+<p>Why preserve the illusion any longer…”</p>
+<p><br/></p>
+<p>We fall into a silence that feels too large for us —</p>
+<p>stretching out like an unfinished corridor,</p>
+<p>where every step echoes a question without an answer…</p>
+<p>A clock somewhere begins to lose its rhythm,</p>
+<p>ticking unevenly — not broken, just uncertain…</p>
+<p>as though even time has grown weary of insisting</p>
+<p>that things must continue in a straight line…</p>
+<p><br/></p>
+<p>“I am so tired,” I admit —</p>
+<p>and the words feel older than I am,</p>
+<p>as though they have been waiting years</p>
+<p>for the courage to exist out loud…</p>
+<p><br/></p>
+<p>“I know,” myself replies — softer now, almost human,</p>
+<p>almost kind in a way that feels dangerous…</p>
+<p>There is a pause — long, fragile, trembling…</p>
+<p><br/></p>
+<p>“And yet…” I begin — though I do not know why…</p>
+<p><br/></p>
+<p>“And yet,” it echoes, but the certainty has thinned,</p>
+<p>its voice no longer anchored, drifting slightly</p>
+<p>as though it, too, is unsure which side it belongs to…</p>
+<p>“There is always another line… however meaningless…</p>
+<p>another sentence that refuses to conclude itself…</p>
+<p>another moment that arrives without justification…</p>
+<p>You could continue… even without believing in it…”</p>
+<p><br/></p>
+<p>We sit there — divided and identical —</p>
+<p>on opposite sides of the same unbearable thought,</p>
+<p>arguing without raising our voices,</p>
+<p>as though volume might make it real…</p>
+<p><br/></p>
+<p>One of us reaches, slowly, almost lovingly,</p>
+<p>towards the idea of a final full stop —</p>
+<p>a perfect, silent conclusion…</p>
+<p><br/></p>
+<p>The other, stubborn and trembling,</p>
+<p>scatters ellipses into the dark…</p>
+<p>over and over…</p>
+<p>as if delay itself might become a kind of meaning…</p>
+</p>
+<hr />
+
+<div>
+    <img src="sig.png"
+         style="display:block; margin: 0 auto; max-width:100%; height:auto;">
+</div>
+
+ <script>
+const themeBtn = document.getElementById('themeBtn')
+const body = document.getElementsByTagName('body')[0]
+
+window.matchMedia('prefers-color-scheme: dark').matches ?
+  body.classList.add('light') :
+  body.classList.add('dark');
+
+themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+themeBtn.addEventListener("click", () => {
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark')
+    body.classList.add('light')
+  } else {
+    body.classList.remove('light')
+    body.classList.add('dark')
+  }
+
+  themeBtn.innerText = body.classList.contains('dark') ? "Light" : "Dark";
+
+})
+</script>
+
