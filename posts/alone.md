@@ -60,8 +60,8 @@ most - how ordinary the question has become.
 
 Because beneath it lies something far heavier.
 
-Not "who would miss me"... but "would there be a moment - even a brief one
-- where my absence interrupts anything at all..."
+Not "who would miss me"... but "would there be a moment - even a brief one -
+where my absence interrupts anything at all..."
 
 He imagines it sometimes - not out of desire, but out of compulsion. The
 world continuing as it does... the quiet persistence of everything. The buses
