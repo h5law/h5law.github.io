@@ -28,10 +28,8 @@ display, though she would never admit it... the way her cheeks fold gently when
 she smiles, not perfectly, but in a way that makes the moment feel real.
 
 He has built her carefully - detail by detail - until she feels less imagined
-and more remembered. He knows the way she paints her nails, the way she ties her
-hair, the way her cheeks wrinkle when she laughs. And yet, there is no memory to
-return to... no voice to confirm her existence, no misplaced belonging left
-behind in the room.
+and more remembered. And yet, there is no memory to return to... no voice to
+confirm her existence, no misplaced belonging left behind in the room.
 
 She does not exist. And still, she lingers.
 
