@@ -60,8 +60,8 @@ comforted him.
 He nodded, his breath shallow now.
 
 A faint smile crossed her lips, though it didn’t quite reach her eyes. “Because I don’t dance for
-the night,” she said quietly. “I hunt in it.” The words settled slowly. It wasn’t just what she said
-- it was the way the room seemed to still around it, as though something unseen had shifted into
+the night,” she said quietly. “I hunt in it.” The words settled slowly. It wasn’t just what she said -
+it was the way the room seemed to still around it, as though something unseen had shifted into
 place. He noticed then the absence of small things - the lack of warmth, the quiet in her breathing,
 the way she stood too perfectly still. Her hand tightened slightly at his jaw, steadying him. His
 pulse had picked up, and he could feel it in his throat. So could she.
