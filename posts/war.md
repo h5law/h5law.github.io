@@ -93,13 +93,13 @@ I’ve pilfered joy and interred sorrow.
 But hear this.
 
 
-Perhaps the war was never meant for victory.
+Perhaps the war was never meant for victory
 
 Perhaps courage is simply allowing the war to rage.
 
 Not elevating one voice to rule over the other,
 
-Not demanding submission, but recognizing the indelible reality of even the most fractured wounds.
+Not demanding submission, but recognising the indelible reality of even the most fractured wounds.
 
 
 And if you find yourself smiling,
